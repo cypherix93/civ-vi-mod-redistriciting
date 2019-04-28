@@ -2269,305 +2269,305 @@
 	</BuildingModifiers>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_WHALES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WHALES_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COAL_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IRON_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_MERCURY_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COPPER_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_CATTLE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CATTLE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SHEEP_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SHEEP_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_FISH_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_FISH_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_CRABS_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-
-		<Row>
-			<RequirementId>REQUIRES_COFFEE_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_INCENSE_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TEA_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TOBACCO_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_WINE_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_BANANAS_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_CITRUS_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_COCOA_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_SALT_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_SPICES_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_SUGAR_IN_PLOT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CRABS_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 
 		<Row>
-			<RequirementId>REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COFFEE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_AMBER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_INCENSE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_IVORY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TEA_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_JADE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TOBACCO_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PEARLS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WINE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SILVER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_BANANAS_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_CITRUS_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_COCOA_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SALT_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SPICES_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUGAR_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 
 		<Row>
-			<RequirementId>REQUIRES_COTTON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_DYES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_AMBER_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_FURS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IVORY_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SILK_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_JADE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SPHINX_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_PEARLS_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SILVER_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+
+		<Row>
+			<RequirementId>REDIS_REQUIRES_COTTON_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_DYES_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_FURS_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SILK_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SPHINX_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_WHALES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WHALES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_WHALES</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COPPER_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COPPER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COAL_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COAL</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_MERCURY_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_MERCURY</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IRON_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_IRON</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_ALUMINUM</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_CATTLE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CATTLE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_CATTLE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SHEEP_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SHEEP_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SHEEP</Value>
 		</Row>
 			<Row>
-			<RequirementId>REQUIRES_CRABS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CRABS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_CRABS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_FISH_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_FISH_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_FISH</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COFFEE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COFFEE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COFFEE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_INCENSE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_INCENSE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_INCENSE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_TEA_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TEA_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_TEA</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_TOBACCO_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TOBACCO_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_TOBACCO</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_WINE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WINE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_WINE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_BANANAS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_BANANAS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_BANANAS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_CITRUS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CITRUS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_CITRUS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COCOA_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COCOA_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COCOA</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SALT_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SALT_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SALT</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SUGAR_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUGAR_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SUGAR</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SPICES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SPICES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SPICES</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_TRUFFLES</Value>
 		</Row>
 
 		<Row>
-			<RequirementId>REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_DIAMONDS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_AMBER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_AMBER_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_AMBER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_IVORY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IVORY_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_IVORY</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_JADE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_JADE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_JADE</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PEARLS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_PEARLS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_PEARLS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SILVER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SILVER_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SILVER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_COTTON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COTTON_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COTTON</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_DYES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_DYES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_DYES</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_FURS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_FURS_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_FURS</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SILK_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SILK_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SILK</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_SPHINX_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SPHINX_IN_PLOT</RequirementId>
 			<Name>ImprovementType</Name>
 			<Value>IMPROVEMENT_SPHINX</Value>
 		</Row>
@@ -2715,137 +2715,137 @@
 	<RequirementSetRequirements>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_WHALES</RequirementSetId>
-			<RequirementId>REQUIRES_WHALES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WHALES_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_COAL</RequirementSetId>
-			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COAL_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_IRON</RequirementSetId>
-			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IRON_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_MERCURY</RequirementSetId>
-			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_MERCURY_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_ALUMINUM</RequirementSetId>
-			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_COPPER</RequirementSetId>
-			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COPPER_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_CATTLE</RequirementSetId>
-			<RequirementId>REQUIRES_CATTLE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CATTLE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SHEEP</RequirementSetId>
-			<RequirementId>REQUIRES_SHEEP_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SHEEP_IN_PLOT</RequirementId>
 		</Row>	
 		<Row>
 			<RequirementSetId>RESOURCE_IS_FISH</RequirementSetId>
-			<RequirementId>REQUIRES_FISH_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_FISH_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_CRABS</RequirementSetId>
-			<RequirementId>REQUIRES_CRABS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CRABS_IN_PLOT</RequirementId>
 		</Row>	
 
 		<Row>
 			<RequirementSetId>RESOURCE_IS_COFFEE</RequirementSetId>
-			<RequirementId>REQUIRES_COFFEE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COFFEE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_INCENSE</RequirementSetId>
-			<RequirementId>REQUIRES_INCENSE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_INCENSE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_TEA</RequirementSetId>
-			<RequirementId>REQUIRES_TEA_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TEA_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_TOBACCO</RequirementSetId>
-			<RequirementId>REQUIRES_TOBACCO_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TOBACCO_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_WINE</RequirementSetId>
-			<RequirementId>REQUIRES_WINE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_WINE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_CITRUS</RequirementSetId>
-			<RequirementId>REQUIRES_CITRUS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_CITRUS_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_COCOA</RequirementSetId>
-			<RequirementId>REQUIRES_COCOA_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COCOA_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_BANANAS</RequirementSetId>
-			<RequirementId>REQUIRES_BANANAS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_BANANAS_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SALT</RequirementSetId>
-			<RequirementId>REQUIRES_SALT_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SALT_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SPICES</RequirementSetId>
-			<RequirementId>REQUIRES_SPICES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SPICES_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SUGAR</RequirementSetId>
-			<RequirementId>REQUIRES_SUGAR_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUGAR_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_TRUFFLES</RequirementSetId>
-			<RequirementId>REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_TRUFFLES_IN_PLOT</RequirementId>
 		</Row>
 
 		<Row>
 			<RequirementSetId>RESOURCE_IS_DIAMONDS</RequirementSetId>
-			<RequirementId>REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_DIAMONDS_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_AMBER</RequirementSetId>
-			<RequirementId>REQUIRES_AMBER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_AMBER_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_IVORY</RequirementSetId>
-			<RequirementId>REQUIRES_IVORY_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_IVORY_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_JADE</RequirementSetId>
-			<RequirementId>REQUIRES_JADE_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_JADE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_PEARLS</RequirementSetId>
-			<RequirementId>REQUIRES_PEARLS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_PEARLS_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SILVER</RequirementSetId>
-			<RequirementId>REQUIRES_SILVER_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SILVER_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_COTTON</RequirementSetId>
-			<RequirementId>REQUIRES_COTTON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_COTTON_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_DYES</RequirementSetId>
-			<RequirementId>REQUIRES_DYES_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_DYES_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_FURS</RequirementSetId>
-			<RequirementId>REQUIRES_FURS_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_FURS_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_SILK</RequirementSetId>
-			<RequirementId>REQUIRES_SILK_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SILK_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>IMPROVEMENT_IS_SPHINX</RequirementSetId>
-			<RequirementId>REQUIRES_SPHINX_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SPHINX_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>TARGET_RANGE_UNIT_REQUIREMENTS</RequirementSetId>

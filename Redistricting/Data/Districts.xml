@@ -1610,27 +1610,27 @@
 	<RequirementSetRequirements>
 		<Row>
 			<RequirementSetId>LUXURYB_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CULINARY</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CULINARY</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CANTINA</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CULINARY</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CANTINA</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_JEWELERS</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</RequirementSetId>
@@ -1643,22 +1643,22 @@
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CANTINA</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CULINARY</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_JEWELERS</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_TEXTILES</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_TEXTILES</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
@@ -1673,22 +1673,22 @@
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CANTINA</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_CANTINA_QUARTER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_CULINARY</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_CULINARY_QUARTER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_JEWELERS</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_JEWELERS_QUARTER</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_NO_TEXTILES</RequirementId>
+			<RequirementId>REDIS_REQUIRES_NO_TEXTILES</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_TEXTILES_QUARTER</Value>
 		</Row>
