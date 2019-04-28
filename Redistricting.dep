@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+	<ID>
+		<name text="Redistricting"/>
+		<id text="a247cef0-9e24-44f7-b5a0-05d5ab13efff"/>
+	</ID>
+	<SystemDependencies>
+	<Element>
+			<ConsumerName text="Buildings"/>            
+			<ArtDefDependencyPaths>               
+ 				<Element text="Buildings.artdef"/>           
+			</ArtDefDependencyPaths>        
+		</Element>       
+		<Element>           
+			<ConsumerName text="Districts"/>            
+			<ArtDefDependencyPaths>               
+ 				<Element text="Districts.artdef"/>           
+			</ArtDefDependencyPaths>        
+		</Element>      
+	</SystemDependencies>
+</AssetObjects::GameDependencyData>

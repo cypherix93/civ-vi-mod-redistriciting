@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a247cef0-9e24-44f7-b5a0-05d5ab13efff" version="1.8">
+<Properties>
+	<Name>Redistricting</Name>
+	<Description>New Districts and Buildings</Description>
+	<Teaser>Redistricting</Teaser>
+	<Authors>Ananse</Authors>
+</Properties>
+<Dependencies>
+	<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
+</Dependencies>
+<Settings>
+</Settings>
+<Components>
+	<UpdateDatabase id="Redistricting_Component">
+		<File>Redistricting/Data/Buildings.xml</File>
+		<File>Redistricting/Data/Districts.xml</File>
+		<File>Redistricting/Data/Governments.xml</File>
+		<File>Redistricting/Data/Resources.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="Redistricting_Text">
+		<File>Redistricting/Text/Buildings_Text.xml</File>
+		<File>Redistricting/Text/Districts_Text.xml</File>
+		<File>Redistricting/Text/Governments_Text.xml</File>
+		<File>Redistricting/Text/Resources_Text.xml</File>
+	</UpdateText>
+	<UpdateIcons id="Redistricting_Icons">
+		<File>Redistricting/Icons/Buildings_Icons.xml</File>
+		<File>Redistricting/Icons/Districts_Icons.xml</File>
+		<File>Redistricting/Icons/Resources_Icons.xml</File>
+	</UpdateIcons>
+	<ImportFiles id="ToT_FileImport">
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_128.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_256.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_256_FOW.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_32.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_38.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_50.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_80.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_128.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_256.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_256_FOW.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_32.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_38.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_50.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_80.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_128.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_256.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_256_FOW.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_32.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_38.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_50.dds</File>
+		<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_80.dds</File>
+	</ImportFiles>
+	<ImportFiles id="Ananse_FileImport">
+		<File>Redistricting/Art/Icons/DistrictAtlas32.dds</File>
+		<File>Redistricting/Art/Icons/DistrictAtlas38.dds</File>
+		<File>Redistricting/Art/Icons/DistrictAtlas50.dds</File>
+		<File>Redistricting/Art/Icons/DistrictAtlas80.dds</File>
+		<File>Redistricting/Art/Icons/DistrictAtlas128.dds</File>
+		<File>Redistricting/Art/Icons/DistrictAtlas256.dds</File>
+
+		<File>Redistricting/Art/Icons/NewResources38.dds</File>
+		<File>Redistricting/Art/Icons/NewResources50.dds</File>
+		<File>Redistricting/Art/Icons/NewResources64.dds</File>
+		<File>Redistricting/Art/Icons/NewResources256.dds</File>
+	</ImportFiles>
+	<ModArt id="Redistricting_Art">
+		<File>Redistricting.dep</File>
+	</ModArt> 
+</Components>
+<Files>
+	<File>Redistricting.dep</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas32.dds</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas38.dds</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas50.dds</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas80.dds</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas128.dds</File>
+	<File>Redistricting/Art/Icons/DistrictAtlas256.dds</File>
+	<File>Redistricting/Art/Icons/NewResources38.dds</File>
+	<File>Redistricting/Art/Icons/NewResources50.dds</File>
+	<File>Redistricting/Art/Icons/NewResources64.dds</File>
+	<File>Redistricting/Art/Icons/NewResources256.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_128.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_256.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_256_FOW.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_32.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_38.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_50.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_A_80.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_128.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_256.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_256_FOW.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_32.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_38.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_50.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_B_80.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_128.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_256.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_256_FOW.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_32.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_38.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_50.dds</File>
+	<File>Redistricting/Art/Icons/ToT_BuildingAtlas_C_80.dds</File>
+	<File>Redistricting/Data/Buildings.xml</File>
+	<File>Redistricting/Data/Districts.xml</File>
+	<File>Redistricting/Data/Governments.xml</File>
+	<File>Redistricting/Data/Resources.xml</File>
+	<File>Redistricting/Icons/Buildings_Icons.xml</File>
+	<File>Redistricting/Icons/Districts_Icons.xml</File>
+	<File>Redistricting/Icons/Resources_Icons.xml</File>
+	<File>Redistricting/Text/Buildings_Text.xml</File>
+	<File>Redistricting/Text/Districts_Text.xml</File>
+	<File>Redistricting/Text/Governments_Text.xml</File>
+	<File>Redistricting/Text/Resources_Text.xml</File>
+  </Files>
+</Mod>

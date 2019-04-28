@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconTextureAtlases>
+    <Row Name="ICON_ATLAS_NEWRESOURCES" IconSize="22" IconsPerRow="8" IconsPerColumn="8" Filename="NewResources22.dds"/>
+    <Row Name="ICON_ATLAS_NEWRESOURCES" IconSize="64" IconsPerRow="8" IconsPerColumn="8" Filename="NewResources64.dds"/>
+    <Row Name="ICON_ATLAS_NEWRESOURCES" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="NewResources38.dds"/>
+	<Row Name="ICON_ATLAS_NEWRESOURCES" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="NewResources50.dds"/>
+	<Row Name="ICON_ATLAS_NEWRESOURCES" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="NewResources256.dds"/>
+  </IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_RESOURCE_ANCHOVIES"        Atlas="ICON_ATLAS_NEWRESOURCES" Index="2"/>
+		<Row Name="ICON_RESOURCE_SAUSAGE"       Atlas="ICON_ATLAS_NEWRESOURCES" Index="1"/>
+		<Row Name="ICON_RESOURCE_BREAD"         Atlas="ICON_ATLAS_NEWRESOURCES" Index="0"/>
+	</IconDefinitions>
+</GameInfo>

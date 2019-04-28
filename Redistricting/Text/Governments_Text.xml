@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<BaseGameText>
+<Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY2" >
+      		<Text>Capital receives +2 boost to all yields. All cities receive +2 [ICON_Housing] Housing and -1 [ICON_Amenities] amenities. Government Centers receive +1 to all yields.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSICAL_REPUBLIC2" >
+      		<Text>All cities with a district receive +1 [ICON_Amenities] Amenities. Government centers provide +1 Great Scientist, Artist and Writer points per turn. </Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY2" >
+      		<Text>+4 [ICON_Strength] Combat Strength for land units. Government Centers provide +2 Great General Points and +30% unit production to their home city.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHANT_REPUBLIC2" >
+      		<Text>+2 [ICON_TradeRoute] Trade Routes. Government Centers provide +1 [ICON_TradeRoute] Trade Route.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY2" >
+      		<Text>+2 [ICON_Housing] Housing in any city with Medieval Walls. Cities with a Government Center receive an additional heavy cavalry or anti-cavalry unit whenever they train one.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY2" >
+      		<Text>Can buy land units with faith. Units receive +5 [ICON_Religion] Religious Strength in theological combat. Government Centers receive +150% adjacency.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY2" >
+      		<Text>Patronage of great people costs 50% less gold. Cities with a government center receive +1 to all great person points.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM2" >
+      		<Text>Land units receive +4 [ICON_Strength] Defense Strength. Cities with a government center receive an additional +10% [ICON_Production] Production.</Text>
+    	</Row>
+	<Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM2" >
+      		<Text>All combat units gain +4 [ICON_Strength] Combat Strength. Cities with a Government Center receive an additional melee, ranged, heavy cavalry, or aircraft unit whenever they train one.</Text>
+    	</Row>
+	</BaseGameText>
+</GameData>

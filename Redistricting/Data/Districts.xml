@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_BOARDWALK" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_BUTCHERS_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_CANTINA_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_CULINARY_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_FISHERY" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_FORESTRY_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_GOVERNMENT_CENTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_MASONS_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_MEDICAL_CENTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_MILLERS_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_NAVAL_BASE" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_OFFSHORE_SETTLEMENT" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_JEWELERS_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_SMITHS_QUARTER" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_TEXTILES_QUARTER" Kind="KIND_DISTRICT"/>
+
+		<Row Type="DISTRICT_AIR_FORCE_BASE" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_AIR_FORCE_BASE" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_CEREMONIAL_CENTER" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_CEREMONIAL_CENTER" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_EANNA" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_EANNA" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_GAUSHALA" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_GAUSHALA" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_GORD" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_GORD" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_MARCHE" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_MARCHE" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_NOME" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_NOME" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_PLAZA" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_PLAZA" Kind="KIND_TRAIT"/> 
+
+		<Row Type="DISTRICT_SILK_FILATURE" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_STANNARY" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_STANNARY" Kind="KIND_TRAIT"/>
+
+		<Row Type="DISTRICT_ZENSOCHI" Kind="KIND_DISTRICT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_AIR_FORCE_BASE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_AIR_FORCE_BASE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_CEREMONIAL_CENTER" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_CEREMONIAL_CENTER_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_EANNA" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_EANNA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GAUSHALA" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_GAUSHALA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GORD" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_GORD_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_MARCHE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_MARCHE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_NOME" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_NOME_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PLAZA" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_PLAZA_NAME"/> 
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_STANNARY" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_STANNARY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI_NAME"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AMERICA" TraitType="TRAIT_CIVILIZATION_DISTRICT_AIR_FORCE_BASE"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_DISTRICT_CEREMONIAL_CENTER"/>
+		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE"/>
+		<Row CivilizationType="CIVILIZATION_FRANCE" TraitType="TRAIT_CIVILIZATION_DISTRICT_MARCHE"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_CIVILIZATION_DISTRICT_STANNARY"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_CIVILIZATION_DISTRICT_NOME"/>
+		<Row CivilizationType="CIVILIZATION_INDIA" TraitType="TRAIT_CIVILIZATION_DISTRICT_GAUSHALA"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI"/>
+		<Row CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_DISTRICT_GORD"/>
+		<Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_CIVILIZATION_DISTRICT_PLAZA"/> 
+		<Row CivilizationType="CIVILIZATION_SUMERIA" TraitType="TRAIT_CIVILIZATION_DISTRICT_EANNA"/>
+	</CivilizationTraits>
+	<Districts>
+		<Row DistrictType="DISTRICT_AIR_FORCE_BASE" Name="LOC_DISTRICT_AIR_FORCE_BASE_NAME" Description="LOC_DISTRICT_AIR_FORCE_BASE_DESCRIPTION" PrereqTech="TECH_FLIGHT" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_CONQUEST" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Coast="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_AIR" AirSlots="6" TravelTime="1" Appeal="-1" CityStrengthModifier="4" TraitType="TRAIT_CIVILIZATION_DISTRICT_AIR_FORCE_BASE"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" Name="LOC_DISTRICT_BOARDWALK_NAME" Description="LOC_DISTRICT_BOARDWALK_DESCRIPTION" PrereqTech="TECH_CARTOGRAPHY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CitizenSlots="1" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" Name="LOC_DISTRICT_BUTCHERS_QUARTER_NAME" Description="LOC_DISTRICT_BUTCHERS_QUARTER_DESCRIPTION" PrereqTech="TECH_ANIMAL_HUSBANDRY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="1" CitizenSlots="1" Appeal="-1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" Name="LOC_DISTRICT_CANTINA_QUARTER_NAME" Description="LOC_DISTRICT_CANTINA_QUARTER_DESCRIPTION" PrereqCivic="CIVIC_MERCENARIES" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="120" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" Name="LOC_DISTRICT_CEREMONIAL_CENTER_NAME" Description="LOC_DISTRICT_CEREMONIAL_CENTER_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="2" CitizenSlots="1" CityStrengthModifier="4" TraitType="TRAIT_CIVILIZATION_DISTRICT_CEREMONIAL_CENTER"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" Name="LOC_DISTRICT_CULINARY_QUARTER_NAME" Description="LOC_DISTRICT_CULINARY_QUARTER_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="120" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_EANNA" Name="LOC_DISTRICT_EANNA_NAME" Description="LOC_DISTRICT_EANNA_DESCRIPTION" PrereqTech="TECH_POTTERY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_EANNA"/>
+		<Row DistrictType="DISTRICT_FISHERY" Name="LOC_DISTRICT_FISHERY_NAME" Description="LOC_DISTRICT_FISHERY_DESCRIPTION" PrereqTech="TECH_SAILING" PlunderType="PLUNDER_HEAL" PlunderAmount="100" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="false" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CitizenSlots="1" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" Name="LOC_DISTRICT_FORESTRY_QUARTER_NAME" Description="LOC_DISTRICT_FORESTRY_QUARTER_DESCRIPTION" PrereqCivic="CIVIC_CRAFTSMANSHIP" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_PLAZA"         Name="LOC_DISTRICT_PLAZA_NAME"         Description="LOC_DISTRICT_PLAZA_DESCRIPTION"         PrereqCivic="CIVIC_MILITARY_TRAINING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="3" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_PLAZA"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" Name="LOC_DISTRICT_GAUSHALA_NAME" Description="LOC_DISTRICT_GAUSHALA_DESCRIPTION" PrereqTech="TECH_ANIMAL_HUSBANDRY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="1" Appeal="-1" CityStrengthModifier="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_GAUSHALA"/>
+		<Row DistrictType="DISTRICT_GORD" Name="LOC_DISTRICT_GORD_NAME" Description="LOC_DISTRICT_GORD_DESCRIPTION" PrereqTech="TECH_SAILING" PlunderType="PLUNDER_HEAL" PlunderAmount="100" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="false" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_GORD"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" Name="LOC_DISTRICT_GOVERNMENT_CENTER_NAME" Description="LOC_DISTRICT_GOVERNMENT_CENTER_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" AdvisorType="ADVISOR_CULTURE" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="250" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CitizenSlots="1" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_MARCHE" Name="LOC_DISTRICT_MARCHE_NAME" Description="LOC_DISTRICT_MARCHE_DESCRIPTION" PrereqTech="TECH_CURRENCY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CityStrengthModifier="4" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_MARCHE"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" Name="LOC_DISTRICT_MASONS_QUARTER_NAME" Description="LOC_DISTRICT_MASONS_QUARTER_DESCRIPTION" PrereqTech="TECH_MASONRY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" Name="LOC_DISTRICT_MEDICAL_CENTER_NAME" Description="LOC_DISTRICT_MEDICAL_CENTER_DESCRIPTION" PrereqTech="TECH_SANITATION" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="180" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" Maintenance="3" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="2" CitizenSlots="1" Housing="2" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" Name="LOC_DISTRICT_MILLERS_QUARTER_NAME" Description="LOC_DISTRICT_MILLERS_QUARTER_DESCRIPTION" PrereqTech="TECH_IRRIGATION" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="1" Appeal="-1" CityStrengthModifier="2" CitizenSlots="1"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" Name="LOC_DISTRICT_NAVAL_BASE_NAME" Description="LOC_DISTRICT_NAVAL_BASE_DESCRIPTION" PrereqTech="TECH_MILITARY_ENGINEERING" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="true" HitPoints="100" CanAttack="1" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CitizenSlots="1" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_NOME" Name="LOC_DISTRICT_NOME_NAME" Description="LOC_DISTRICT_NOME_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="1" Appeal="2" CityStrengthModifier="4" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_NOME"/>
+		<Row DistrictType="DISTRICT_OFFSHORE_SETTLEMENT" Name="LOC_DISTRICT_OFFSHORE_SETTLEMENT_NAME" Description="LOC_DISTRICT_OFFSHORE_SETTLEMENT_DESCRIPTION" PrereqTech="TECH_FUTURE_TECH" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" Coast="true" OnePerCity="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="3" CitizenSlots="1" CityStrengthModifier="2"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" Name="LOC_DISTRICT_JEWELERS_QUARTER_NAME" Description="LOC_DISTRICT_JEWELERS_QUARTER_DESCRIPTION" PrereqTech="TECH_MATHEMATICS" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="120" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" Name="LOC_DISTRICT_SILK_FILATURE_NAME" Description="LOC_DISTRICT_SILK_FILATURE_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CityStrengthModifier="4" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" Name="LOC_DISTRICT_SMITHS_QUARTER_NAME" Description="LOC_DISTRICT_SMITHS_QUARTER_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CitizenSlots="1" CityStrengthModifier="4"/>
+		<Row DistrictType="DISTRICT_STANNARY" Name="LOC_DISTRICT_STANNARY_NAME" Description="LOC_DISTRICT_STANNARY_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="-1" CitizenSlots="1" CityStrengthModifier="4" TraitType="TRAIT_CIVILIZATION_DISTRICT_STANNARY"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" Name="LOC_DISTRICT_TEXTILES_QUARTER_NAME" Description="LOC_DISTRICT_TEXTILES_QUARTER_DESCRIPTION" PrereqTech="TECH_MACHINERY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="120" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="60" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CityStrengthModifier="4" CitizenSlots="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" Name="LOC_DISTRICT_ZENSOCHI_NAME" Description="LOC_DISTRICT_ZENSOCHI_DESCRIPTION" PrereqTech="TECH_MILITARY_ENGINEERING" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="true" HitPoints="100" CanAttack="1" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CitizenSlots="1" CityStrengthModifier="2" AirSlots="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI"/>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+			<Set PrereqTech="TECH_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA"/>
+			<Set PrereqTech="TECH_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT"/>
+			<Set PrereqTech="" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+		</Update>
+
+
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT"/>
+			<Set CitizenSlots="1"/>
+		</Update>
+	</Districts>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_AIR_FORCE_BASE" ReplacesDistrictType="DISTRICT_AERODROME"/>
+		<Row CivUniqueDistrictType="DISTRICT_CEREMONIAL_CENTER" ReplacesDistrictType="DISTRICT_MASONS_QUARTER"/>
+		<Row CivUniqueDistrictType="DISTRICT_EANNA" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+		<Row CivUniqueDistrictType="DISTRICT_GAUSHALA" ReplacesDistrictType="DISTRICT_BUTCHERS_QUARTER"/>
+		<Row CivUniqueDistrictType="DISTRICT_GORD" ReplacesDistrictType="DISTRICT_FISHERY"/>
+		<Row CivUniqueDistrictType="DISTRICT_MARCHE" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+		<Row CivUniqueDistrictType="DISTRICT_NOME" ReplacesDistrictType="DISTRICT_MILLERS_QUARTER"/>
+		<Row CivUniqueDistrictType="DISTRICT_PLAZA" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/> 
+		<Row CivUniqueDistrictType="DISTRICT_SILK_FILATURE" ReplacesDistrictType="DISTRICT_TEXTILES_QUARTER"/>
+		<Row CivUniqueDistrictType="DISTRICT_STANNARY" ReplacesDistrictType="DISTRICT_SMITHS_QUARTER"/>
+		<Row CivUniqueDistrictType="DISTRICT_ZENSOCHI" ReplacesDistrictType="DISTRICT_NAVAL_BASE"/>
+	</DistrictReplaces>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="District_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Harbor_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="RoyalDock_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Harbor_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="RoyalDock_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Fishery_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Gord_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Marche_Gold"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Theater_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Acropolis_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="NavalBase_Culture"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldChangeId="Zensochi_Culture"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Pasture_Food"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Camp_Food"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="CULINARY_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Pasture_Production"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Camp_Production"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Commercial_Hub_Culture"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Commercial_Hub_Science"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Marche_Culture"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Marche_Gold"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Marche_Science"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Harbor_Science"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="RoyalDock_Science"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Theater_Culture"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldChangeId="Acropolis_Culture"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldChangeId="Quarry_Production"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldChangeId="Quarry_Culture"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldChangeId="Industrial_Zone_Culture"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Commercial_Hub_Culture"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Commercial_Hub_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Marche_Culture"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Marche_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Marche_Gold"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Theater_Culture"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Acropolis_Culture"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Butchers_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Gaushala_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Fishery_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Gord_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Millers_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldChangeId="Nome_Food"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Mountains_Science1"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Mountains_Science2"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Mountains_Science3"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Mountains_Science4"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Mountains_Science5"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="Jungle_Science"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldChangeId="Harbor_Food"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldChangeId="RoyalDock_Food"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldChangeId="SeaResource_Food"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="LumberMill_Production"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="LumberMill_Gold"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="Industrial_Zone_Gold"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldChangeId="Hansa_Gold"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Pasture_Food"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Camp_Food"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="CULINARY_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Pasture_Production"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Camp_Production"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Holy_Site_Faith"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Pasture_Faith"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldChangeId="Stepwell_Faith"/>
+		<Row DistrictType="DISTRICT_GORD" YieldChangeId="Harbor_Food"/>
+		<Row DistrictType="DISTRICT_GORD" YieldChangeId="RoyalDock_Food"/>
+		<Row DistrictType="DISTRICT_GORD" YieldChangeId="SeaResource_Food"/>
+		<Row DistrictType="DISTRICT_GORD" YieldChangeId="SeaResource_Culture"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldChangeId="City_Center_Faith"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldChangeId="District_Faith_Standard"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldChangeId="Wonder_Faith"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Fishery_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Gord_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="NavalBase_Gold"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldChangeId="Chateau_Gold"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldChangeId="River_Gold"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldChangeId="Harbor_Gold"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldChangeId="RoyalDock_Gold"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Quarry_Production"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Quarry_Culture"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Industrial_Zone_Culture"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldChangeId="Hansa_Culture"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldChangeId="Campus_Science"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldChangeId="Encampment_Science"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldChangeId="Plaza_Science"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldChangeId="Farm_Production"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldChangeId="Farm_Food"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldChangeId="CULINARY_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Encampment_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Plaza_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Boardwalk_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Fishery_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Gord_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Harbor_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="RoyalDock_Production"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Campus_Science"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="Harbor_Science"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldChangeId="RoyalDock_Science"/>
+		<Row DistrictType="DISTRICT_NOME" YieldChangeId="Farm_Production"/>
+		<Row DistrictType="DISTRICT_NOME" YieldChangeId="Farm_Faith"/>
+		<Row DistrictType="DISTRICT_NOME" YieldChangeId="Farm_Food"/>
+		<Row DistrictType="DISTRICT_NOME" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_NOME" YieldChangeId="CULINARY_Quarter_Food"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Commercial_Hub_Culture"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Commercial_Hub_Production"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Marche_Culture"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Marche_Gold"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Marche_Production"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Theater_Culture"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldChangeId="Acropolis_Culture"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="Commercial_Hub_Production"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="Commercial_Hub_Science"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldChangeId="Campus_Science"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Mine_Production"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Mine_Science"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Industrial_Zone_Science"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldChangeId="Hansa_Science"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Mine_Production"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Mine_Science"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Mine_Gold"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Industrial_Zone_Science"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldChangeId="Industrial_Zone_Gold"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Commercial_Hub_Gold"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Commercial_Hub_Production"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Commercial_Hub_Science"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Marche_Gold"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Marche_Production"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Marche_Science"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Hansa_Production"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldChangeId="Campus_Science"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Harbor_Production"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Boardwalk_Production"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Fishery_Production"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Encampment_Production"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Campus_Science"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldChangeId="Harbor_Science"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_BOARDWALK" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_EANNA" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_FISHERY" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_GORD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_MARCHE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_MARCHE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_NOME" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_PLAZA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+ 		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_STANNARY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+					<!-- CAMPUS -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChangeAsDomesticDestination="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChangeAsOrigin="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChangeAsInternationalDestination="1"/>
+		</Update>
+		<Delete DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_FOOD"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+
+		<Row DistrictType="DISTRICT_EANNA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+
+					<!-- CITY CENTER -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_CITY_CENTER" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsOrigin="-1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_CITY_CENTER" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsInternationalDestination="4"/>
+		</Update>
+
+					<!-- COMMERCIAL HUB -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsOrigin="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsDomesticDestination="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsInternationalDestination="2"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChangeAsDomesticDestination="0"/>
+		</Update>
+
+		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+
+
+					<!-- ENCAMPMENT -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChangeAsOrigin="1"/>
+		</Update>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+
+		<Row DistrictType="DISTRICT_PLAZA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_PLAZA" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_PLAZA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="3"/>
+
+
+					<!-- HARBOR -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsOrigin="2"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsDomesticDestination="2"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/>
+			<Set YieldChangeAsInternationalDestination="4"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChangeAsDomesticDestination="0"/>
+		</Update>
+
+
+					<!-- HOLY SITE -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/>
+			<Set YieldChangeAsDomesticDestination="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/>
+			<Set YieldChangeAsOrigin="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/>
+			<Set YieldChangeAsInternationalDestination="1"/>
+		</Update>
+		<Delete DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FOOD"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+
+
+					<!-- THEATER -->
+
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChangeAsDomesticDestination="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChangeAsInternationalDestination="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChangeAsOrigin="1"/>
+		</Update>
+		<Delete DistrictType="DISTRICT_THEATER" YieldType="YIELD_FOOD"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+
+
+					<!-- GROWTH DISTRICTS -->
+
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_FAITH" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FAITH" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+					<!-- LUXURY DISTRICTS -->
+
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="5" YieldChangeAsDomesticDestination="-3" YieldChangeAsInternationalDestination="-4"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="5" YieldChangeAsDomesticDestination="-3" YieldChangeAsInternationalDestination="-4"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_FOOD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="5" YieldChangeAsDomesticDestination="-3" YieldChangeAsInternationalDestination="-4"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="5" YieldChangeAsDomesticDestination="-3" YieldChangeAsInternationalDestination="-4"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="6" YieldChangeAsDomesticDestination="-3" YieldChangeAsInternationalDestination="-4"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+
+					<!-- INFRASTRUCTURE DISTRICTS -->
+
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="3" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_FAITH" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="-1" YieldChangeAsInternationalDestination="-1"/>
+
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="-2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+		
+					<!-- GOVERNMENT DISTRICT -->
+
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="4"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+
+					<!-- BOARDWALK -->
+
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldType="YIELD_GOLD" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="3"/>
+
+					<!-- MEDICAL CENTER -->
+
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="4"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="1" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+
+					<!-- NAVAL BASE -->
+
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldType="YIELD_GOLD" YieldChangeAsOrigin="-1" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_BOARDWALK" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_BUTCHERS_QUARTER" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_EANNA" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_PLAZA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_PLAZA" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SILK_FILATURE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_SMITHS_QUARTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_STANNARY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_TEXTILES_QUARTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_ZENSOCHI" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="5"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="3"/>
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_CitizenGreatPersonPoints>
+	</District_CitizenGreatPersonPoints>
+	<Adjacency_YieldChanges>
+		<Row ID="Boardwalk_Production" Description="LOC_DISTRICT_BOARDWALK_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_BOARDWALK"/>
+		<Row ID="Butchers_Quarter_Food" Description="LOC_DISTRICT_BUTCHERS_QUARTER_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BUTCHERS_QUARTER"/>
+		<Row ID="Gaushala_Food" Description="LOC_DISTRICT_GAUSHALA_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GAUSHALA"/>
+		<Row ID="Camp_Production" Description="LOC_DISTRICT_CAMP_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
+		<Row ID="Camp_Food" Description="LOC_DISTRICT_CAMP_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
+		<Row ID="Campus_Science" Description="LOC_DISTRICT_CAMPUS_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row ID="Campus_Double_Science" Description="LOC_DISTRICT_CAMPUS_DOUBLE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="4" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row ID="Chateau_Gold" Description="LOC_DISTRICT_CHATEAU_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CHATEAU"/>
+		<Row ID="City_Center_Faith" Description="LOC_DISTRICT_CITY_CENTER_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>	
+		<Row ID="Commercial_Hub_Culture" Description="LOC_DISTRICT_COMMERCIAL_HUB_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Commercial_Hub_Food" Description="LOC_DISTRICT_COMMERCIAL_HUB_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Commercial_Hub_Gold" Description="LOC_DISTRICT_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Commercial_Hub_Production" Description="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Commercial_Hub_Science" Description="LOC_DISTRICT_COMMERCIAL_HUB_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+			<Row ID="Marche_Culture" Description="LOC_DISTRICT_MARCHE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+			<Row ID="Marche_Food" Description="LOC_DISTRICT_MARCHE_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+			<Row ID="Marche_Gold" Description="LOC_DISTRICT_MARCHE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+			<Row ID="Marche_Production" Description="LOC_DISTRICT_MARCHE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+			<Row ID="Marche_Science" Description="LOC_DISTRICT_MARCHE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="CULINARY_Quarter_Food" Description="LOC_DISTRICT_CULINARY_QUARTER_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CULINARY_QUARTER"/>
+		<Row ID="CULINARY_Quarter_Production" Description="LOC_DISTRICT_CULINARY_QUARTER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CULINARY_QUARTER"/>
+		<Row ID="District_Faith_Standard" Description="LOC_DISTRICT_DISTRICT_FAITH_STANDARD" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row ID="Double_District_Gold" Description="LOC_DISTRICT_DOUBLE_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row ID="Encampment_Science" Description="LOC_DISTRICT_ENCAMPMENT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row ID="Encampment_Production" Description="LOC_DISTRICT_ENCAMPMENT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row ID="Plaza_Science" Description="LOC_DISTRICT_PLAZA_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_PLAZA"/>
+		<Row ID="Plaza_Production" Description="LOC_DISTRICT_PLAZA_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_PLAZA"/>
+		<Row ID="Farm_Faith" Description="LOC_DISTRICT_FARM_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row ID="Farm_Food" Description="LOC_DISTRICT_FARM_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row ID="Farm_Production" Description="LOC_DISTRICT_FARM_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM"/>
+ 		<Row ID="Fishery_Food" Description="LOC_DISTRICT_FISHERY_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_FISHERY"/>
+ 		<Row ID="Fishery_Production" Description="LOC_DISTRICT_FISHERY_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_FISHERY"/>
+		<Row ID="Fishery_Gold" Description="LOC_DISTRICT_FISHERY_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_FISHERY"/>
+ 		<Row ID="Gord_Food" Description="LOC_DISTRICT_GORD_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GORD"/>
+ 		<Row ID="Gord_Production" Description="LOC_DISTRICT_GORD_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GORD"/>
+		<Row ID="Gord_Gold" Description="LOC_DISTRICT_GORD_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GORD"/>
+		<Row ID="Forest_Production" Description="LOC_DISTRICT_FOREST_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Forest_Production_Small" Description="LOC_DISTRICT_FOREST_PRODUCTION_SMALL" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Forest_Gold_Small" Description="LOC_DISTRICT_FOREST_GOLD_SMALL" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Harbor_Food" Description="LOC_DISTRICT_HARBOR_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="RoyalDock_Food" Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row ID="Harbor_Production" Description="LOC_DISTRICT_HARBOR_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="RoyalDock_Production" Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row ID="Harbor_Culture" Description="LOC_DISTRICT_HARBOR_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="RoyalDock_Culture" Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row ID="Harbor_Science" Description="LOC_DISTRICT_HARBOR_CULTURE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="RoyalDock_Science" Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row ID="Holy_Site_Faith" Description="LOC_DISTRICT_HOLY_SITE_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Industrial_Zone_Culture" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Hansa_Culture" Description="LOC_DISTRICT_HANSA_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row ID="Industrial_Zone_Food" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Hansa_Food" Description="LOC_DISTRICT_HANSA_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row ID="Industrial_Zone_Gold" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Hansa_Gold" Description="LOC_DISTRICT_HANSA_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row ID="Industrial_Zone_Production" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Hansa_Production" Description="LOC_DISTRICT_HANSA_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row ID="Industrial_Zone_Science" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Hansa_Science" Description="LOC_DISTRICT_HANSA_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row ID="LumberMill_Production" Description="LOC_LUMBERMILL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
+		<Row ID="LumberMill_Gold" Description="LOC_LUMBERMILL_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
+		<Row ID="Millers_Quarter_Food" Description="LOC_DISTRICT_MILLERS_QUARTER_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MILLERS_QUARTER"/>
+		<Row ID="Nome_Food" Description="LOC_DISTRICT_NOME_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_NOME"/>
+		<Row ID="Mine_Gold" Description="LOC_DISTRICT_MINE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row ID="Mine_Science" Description="LOC_DISTRICT_MINE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row ID="Mine_Production_Small" Description="LOC_DISTRICT_MINE_PRODUCTION_SMALL" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row ID="NavalBase_Gold" Description="LOC_DISTRICT_NAVALBASE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_NAVAL_BASE"/>
+		<Row ID="NavalBase_Production" Description="LOC_DISTRICT_NAVALBASE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_NAVAL_BASE"/>
+		<Row ID="NavalBase_Culture" Description="LOC_DISTRICT_NAVALBASE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_NAVAL_BASE"/>
+		<Row ID="Zensochi_Gold" Description="LOC_DISTRICT_ZENSOCHI_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ZENSOCHI"/>
+		<Row ID="Zensochi_Production" Description="LOC_DISTRICT_ZENSOCHI_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ZENSOCHI"/>
+		<Row ID="Zensochi_Culture" Description="LOC_DISTRICT_ZENSOCHI_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ZENSOCHI"/>
+		<Row ID="Pasture_Production" Description="LOC_DISTRICT_PASTURE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="Pasture_Food" Description="LOC_DISTRICT_PASTURE_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="Pasture_Faith" Description="LOC_DISTRICT_PASTURE_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="Quarry_Culture" Description="LOC_DISTRICT_QUARRY_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+		<Row ID="SeaResource_Culture" Description="LOC_DISTRICT_SEARESOURCE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row ID="SeaResource_Food" Description="LOC_DISTRICT_SEARESOURCE_FOOD" YieldType="YIELD_FOOD" YieldChange="3" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row ID="Stepwell_Faith" Description="LOC_DISTRICT_STEPWELL_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_STEPWELL"/>
+		<Row ID="Theater_Culture" Description="LOC_DISTRICT_THEATER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row ID="Acropolis_Culture" Description="LOC_DISTRICT_ACROPOLIS_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row ID="Theater_Gold" Description="LOC_DISTRICT_THEATER_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row ID="Acropolis_Gold" Description="LOC_DISTRICT_ACROPOLIS_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row ID="Wonder_Faith" Description="LOC_DISTRICT_WONDER_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentWonder="true"/>
+	</Adjacency_YieldChanges>	
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI</TraitType>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ZENSOCHI</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_MARCHE</DistrictType>
+			<ModifierId>COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_CEREMONIAL_CENTER</DistrictType>
+			<ModifierId>1EAGLEWARRIOR</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_GOVERNMENT_CENTER</DistrictType>
+			<ModifierId>GOVERNMENT_CENTER_INFLUENCE</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_SILK_FILATURE</DistrictType>
+			<ModifierId>SILKROAD_INTERNATIONALCULTURE</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_SILK_FILATURE</DistrictType>
+			<ModifierId>SILKROAD_INTERNATIONALGOLD</ModifierId>
+		</Row>
+
+				<!-- Luxury Trade Routes -->
+
+		<Row>
+			<DistrictType>DISTRICT_CULINARY_QUARTER</DistrictType>
+			<ModifierId>1LUXURYTRADEROUTE_A</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_CANTINA_QUARTER</DistrictType>
+			<ModifierId>1LUXURYTRADEROUTE_B</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_JEWELERS_QUARTER</DistrictType>
+			<ModifierId>1LUXURYTRADEROUTE_C</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_TEXTILES_QUARTER</DistrictType>
+			<ModifierId>1LUXURYTRADEROUTE_D</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_SILK_FILATURE</DistrictType>
+			<ModifierId>1LUXURYTRADEROUTE_D</ModifierId>
+		</Row>
+
+	</DistrictModifiers>
+	<GovernmentModifiers>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_AUTOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_CLASSICAL_REPUBLIC</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_ARTIST</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_CLASSICAL_REPUBLIC</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_SCIENTIST</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_CLASSICAL_REPUBLIC</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_WRITER</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_COMMUNISM</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_COMMUNISM_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ADMIRAL</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ARTIST</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ENGINEER</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_GENERAL</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MERCHANT</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MUSICIAN</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_SCIENTIST</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_DEMOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_WRITER</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_FASCISM</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTAIRCRAFT</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_FASCISM</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTMELEE</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_FASCISM</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTRANGED</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_FASCISM</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTHEAVYCAV</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_MERCHANT_REPUBLIC</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_MERCHANT_REPUBLIC_TRADE</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_MONARCHY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTANTICAV</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_MONARCHY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTCAV</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_OLIGARCHY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_GENERAL</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_OLIGARCHY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernmentType>GOVERNMENT_THEOCRACY</GovernmentType>
+			<ModifierId>GOVERNMENT_CENTER_THEOCRACY_DOUBLE</ModifierId>
+		</Row>
+	</GovernmentModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>1EAGLEWARRIOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GETS_ONE_EAGLE_WARRIOR</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_A</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_B</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>LUXURYB_CAPACITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_D</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ZENSOCHI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_INTERNALTRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_ARTIST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_SCIENTIST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_WRITER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_COMMUNISM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CONSTITUTIONAL_MONARCHY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ADMIRAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ARTIST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ENGINEER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MERCHANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MUSICIAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_SCIENTIST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_WRITER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTAIRCRAFT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTMELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTRANGED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTHEAVYCAV</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FUNDAMENTALISM_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_GLOBALISM_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MERCHANT_REPUBLIC_TRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTANTICAV</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTCAV</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALMELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALRAIDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_SOCIALISM_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_SOCIALISM_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_THEOCRACY_DOUBLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_INFLUENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALCULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALGOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>1EAGLERWARRIOR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>1EAGLERWARRIOR</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_AZTEC_EAGLE_WARRIOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>1EAGLERWARRIOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_A</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_B</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>1LUXURYTRADEROUTE_D</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ZENSOCHI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ZENSOCHI</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_INTERNALTRADE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_ARISTOCRACY_INTERNALTRADE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_AUTOCRACY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_ARTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_ARTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_SCIENTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_SCIENTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_WRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CLASSICAL_REPUBLIC_WRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_COMMUNISM_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_COMMUNISM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CONSTITUTIONAL_MONARCHY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_CONSTITUTIONAL_MONARCHY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ADMIRAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ADMIRAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ARTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ARTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ENGINEER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_ENGINEER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_GENERAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_GENERAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MERCHANT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MERCHANT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MUSICIAN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_MUSICIAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_SCIENTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_SCIENTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_WRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_DEMOCRACY_WRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTAIRCRAFT</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_AIRCRAFT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTAIRCRAFT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTMELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTMELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTRANGED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTRANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTHEAVYCAV</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FASCISM_GRANTHEAVYCAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FUNDAMENTALISM_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_FUNDAMENTALISM_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_GLOBALISM_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MERCHANT_REPUBLIC_TRADE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTANTICAV</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTANTICAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTCAV</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_MONARCHY_GRANTCAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALMELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALMELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALRAIDER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_NAVAL_EMPIRE_GRANTNAVALRAIDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_GENERAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_GENERAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_OLIGARCHY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_SOCIALISM_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_SOCIALISM_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_THEOCRACY_DOUBLE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_THEOCRACY_DOUBLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>150</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOVERNMENT_CENTER_INFLUENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SILKROAD_INTERNATIONALGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>LUXURYB_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>LUXURYB_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYC_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LUXURYD_CAPACITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNMENT_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>CITY_HAS_GOVERNMENT_CENTER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOVERNMENT_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>DISTRICT_IS_GOVERNMENT_CENTER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_TEXTILES</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_GOVERNMENT_CENTER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>DISTRICT_IS_GOVERNMENT_CENTER</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_NO_CANTINA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANTINA_QUARTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_CULINARY</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CULINARY_QUARTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_JEWELERS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_JEWELERS_QUARTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NO_TEXTILES</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_TEXTILES_QUARTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_GOVERNMENT_CENTER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT_CENTER</Value>
+		</Row>
+		<Row>
+			<RequirementId>DISTRICT_IS_GOVERNMENT_CENTER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT_CENTER</Value>
+		</Row>
+	</RequirementArguments>
+	<Types>
+		<Row Type="MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_TRADE_ROUTE_YIELD_FOR_DOMESTIC</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+</GameInfo>

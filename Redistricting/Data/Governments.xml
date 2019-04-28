@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+<Governments>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_AUTOCRACY"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_AUTOCRACY2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CLASSICAL_REPUBLIC2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_OLIGARCHY"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_OLIGARCHY2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_THEOCRACY"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_THEOCRACY2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_MONARCHY"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MERCHANT_REPUBLIC2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DEMOCRACY2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_COMMUNISM"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM2"/>
+	</Update>
+	<Update>
+		<Where GovernmentType="GOVERNMENT_FASCISM"/>
+		<Set InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_FASCISM2"/>
+	</Update>
+</Governments>
+<GovernmentModifiers>
+	<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+		<ModifierId>AUTOCRACY_HOUSING</ModifierId>
+	</Row>
+	<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+		<ModifierId>AUTOCRACY_AMENITIES</ModifierId>
+	</Row>
+</GovernmentModifiers>
+<Modifiers>
+	<Row>
+		<ModifierId>AUTOCRACY_HOUSING</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+	</Row>
+	<Row>
+		<ModifierId>AUTOCRACY_AMENITIES</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+	</Row>
+</Modifiers>
+<ModifierArguments>	
+	<Row>
+		<ModifierId>AUTOCRACY_HOUSING</ModifierId>
+		<Name>Amount</Name>
+		<Value>2</Value>
+	</Row>
+	<Row>
+		<ModifierId>AUTOCRACY_AMENITIES</ModifierId>
+		<Name>Amount</Name>
+		<Value>-1</Value>
+	</Row>
+	<Update>
+		<Where ModifierId="AUTOCRACY_WONDERS" Name="Amount"/>
+		<Set Value="20"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_CULTURE" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_FOOD" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_GOLD" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_PRODUCTION" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_SCIENCE" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+	<Update>
+		<Where ModifierId="AUTOCRACY_FAITH" Name="Amount"/>
+		<Set Value="2"/>
+	</Update>
+</ModifierArguments>
+</GameInfo>

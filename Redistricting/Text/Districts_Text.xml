@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+ <LocalizedText>
+	<Row Tag="LOC_DISTRICT_AIR_FORCE_BASE_NAME" Language="en_US">
+		<Text>Air Force Base</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_AIR_FORCE_BASE_DESCRIPTION" Language="en_US">
+		<Text>American replacement for the Aerodrome.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_BOARDWALK_NAME" Language="en_US">
+		<Text>Boardwalk</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_BOARDWALK_DESCRIPTION" Language="en_US">
+		<Text>A specialty district.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_BOARDWALK_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency: Double [ICON_Culture] Culture and [ICON_Gold] Gold bonus for adjacent Harbors. Standard [ICON_Culture] Culture and [ICON_Gold] Gold bonus for each adjacent sea resource. Minor [ICON_Culture] Culture and [ICON_Gold] Gold bonus for adjacent district tiles.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_BUTCHERS_QUARTER_NAME" Language="en_US">
+		<Text>Butchers' Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_BUTCHERS_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on city growth that provides bonuses to pastures and camps.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CANAL_NAME" Language="en_US">
+		<Text>Canal</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on city growth that provides bonuses to pastures and camps.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CANTINA_QUARTER_NAME" Language="en_US">
+		<Text>Cantina Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CANTINA_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district that utilizes [ICON_RESOURCE_WINE] Wine, [ICON_RESOURCE_TOBACCO] Tobacco, [ICON_RESOURCE_INCENSE] Incense, [ICON_RESOURCE_TEA] Tea and [ICON_RESOURCE_COFFEE] Coffee. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CANTINA_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency: Double [ICON_Culture] Culture [ICON_Gold] Gold and [ICON_Science] Science for adjacent Commercial Hubs.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CEREMONIAL_CENTER_NAME" Language="en_US">
+		<Text>Ceremonial Center</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CEREMONIAL_CENTER_DESCRIPTION" Language="en_US">
+		<Text>Aztec replacement for the Masons' Quarter. Provides additional faith to internal trade routes and when worked, and 1 Great Prophet Point per turn. Grants access to the Sacrificial Rites Project.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CULINARY_QUARTER_NAME" Language="en_US">
+		<Text>Culinary Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CULINARY_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district that utilizes [ICON_RESOURCE_TRUFFLES] Truffles, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_SPICES] Spices. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_CULINARY_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency: Double [ICON_Culture] Culture [ICON_Food] Food and [ICON_Gold] Gold for adjacent Commercial Hubs.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_DRYDOCK_NAME" Language="en_US">
+		<Text>Drydock</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_EANNA_NAME" Language="en_US">
+	      <Text>Eanna</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_EANNA_DESCRIPTION" Language="en_US">
+	      <Text>Sumerian replacement for the Campus.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_EANNA_NAME" Language="en_US">
+	      <Text>Eanna</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FISHERY_NAME" Language="en_US">
+		<Text>Fishery</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FISHERY_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on city growth that provides bonuses to sea resources.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FRONTIER_FORT_NAME" Language="en_US">
+		<Text>Frontier Fort</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FRONTIER_FORT_DESCRIPTION" Language="en_US">
+		<Text>American replacement for the Encampment.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GAUSHALA_NAME" Language="en_US">
+	      <Text>Gaushala</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GAUSHALA_DESCRIPTION" Language="en_US">
+	      <Text>Indian replacement for the Butchers' Quarter. Bonus faith and food from cattle. Provides Great Prophet Points when worked.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_GAUSHALA_NAME" Language="en_US">
+	      <Text>Gaushala</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GORD_NAME" Language="en_US">
+	      <Text>Gord</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GORD_DESCRIPTION" Language="en_US">
+	      <Text>Norwegian replacement for the Fishery. Provides additional culture from sea resources.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_GORD_NAME" Language="en_US">
+	      <Text>Gord</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GOVERNMENT_CENTER_NAME" Language="en_US">
+		<Text>Government Center</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_GOVERNMENT_CENTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district that initially produces faith, and later, converts it to other yields as well.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MARCHE_NAME" Language="en_US">
+	      <Text>Marche</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MARCHE_DESCRIPTION" Language="en_US">
+	      <Text>French replacement for the Commercial Hub. Provides bonus culture from internal trade routes and workers in citizen slots.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_MARCHE_NAME" Language="en_US">
+	      <Text>Marche</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MASONS_QUARTER_NAME" Language="en_US">
+		<Text>Masons' Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MASONS_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district with bonuses to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_Marble] Marble and [ICON_RESOURCE_GYPSUM] Gypsum.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MEDICAL_CENTER_NAME" Language="en_US">
+		<Text>Medical Center</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MEDICAL_CENTER_DESCRIPTION" Language="en_US">
+		<Text>A late-game district that provides [ICON_Housing] Housing and Growth for your empire.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MILLERS_QUARTER_NAME" Language="en_US">
+		<Text>Millers' Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_MILLERS_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on city growth that provides bonuses to farms and farmed resources.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_NAVAL_BASE_NAME" Language="en_US">
+		<Text>Naval Base</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_NAVAL_BASE_DESCRIPTION" Language="en_US">
+		<Text>A specialty district for naval military facilities. Exercises Zone of Control and has an attack.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_NAVAL_BASE_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency:Quadruple [ICON_Production] Production for adjacent Dry Docks. Double [ICON_Production] Production for adjacent Harbors.</Text>
+	</Row>	
+	<Row Tag="LOC_DISTRICT_NOME_NAME" Language="en_US">
+	      <Text>Nome</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_NOME_DESCRIPTION" Language="en_US">
+	      <Text>Egyptian replacement for the Millers' Quarter. Provides additional faith to farms and internal trade routes.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_NOME_NAME" Language="en_US">
+	      <Text>Nome</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_JEWELERS_QUARTER_NAME" Language="en_US">
+		<Text>Jewelers' Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_JEWELERS_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district that utilizes [ICON_RESOURCE_DIAMONDS] Diamonds, [ICON_RESOURCE_SILVER] Silver, [ICON_RESOURCE_JADE] Jade, [ICON_RESOURCE_IVORY] Ivory and [ICON_RESOURCE_PEARLS] Pearls. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_JEWELER_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency: Double [ICON_Culture] Culture [ICON_Gold] Gold and [ICON_Production] Production for adjacent Commercial Hubs.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_PLAZA_NAME" Language="en_US">
+	      <Text>Plaza de Armas</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_PLAZA_DESCRIPTION" Language="en_US">
+	      <Text>Spanish replacement for Encampment.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_PLAZA_NAME" Language="en_US">
+	      <Text>Plaza</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SEJMIK_NAME" Language="en_US">
+	      <Text>Sejmik</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SEJMIK_DESCRIPTION" Language="en_US">
+	      <Text>Polish replacement for the Government Center. Grants two influence per turn instead of the usual one, and grants one diplomatic envoy immediately upon completion.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_SEJMIK_NAME" Language="en_US">
+	      <Text>Sejmik</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SILK_FILATURE_NAME" Language="en_US">
+	      <Text>Silk Filature</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SILK_FILATURE_DESCRIPTION" Language="en_US">
+	      <Text>Chinese replacement for the Textiles Quarter. International trade routes from this city provide +2 [ICON_Culture] Culture and +2 [ICON_Gold] Gold.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_SILK_FILATURE_NAME" Language="en_US">
+	      <Text>Silk Filature</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SMITHS_QUARTER_NAME" Language="en_US">
+		<Text>Smiths' Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_SMITHS_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on production with bonuses to [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron, and [ICON_RESOURCE_MERCURY] Mercury. </Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_STANNARY_NAME" Language="en_US">
+	      <Text>Stannary</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_STANNARY_DESCRIPTION" Language="en_US">
+	      <Text>English replacement for the Smiths' Quarter. Has an additional gold adjacency from mines and Industrial Zones. Provides one trade route.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_STANNARY_NAME" Language="en_US">
+	      <Text>Stannary</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_TEXTILES_QUARTER_NAME" Language="en_US">
+		<Text>Textiles Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_TEXTILES_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district that utilizes [ICON_RESOURCE_FURS] Furs, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_SILK] Silk and [ICON_RESOURCE_DYES] Dyes. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_TEXTILES_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
+		<Text>Adjacency: Double [ICON_Gold] Gold [ICON_Production] Production and [ICON_Science] Science for adjacent Commercial Hubs.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FORESTRY_QUARTER_NAME" Language="en_US">
+		<Text>Forestry Quarter</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_FORESTRY_QUARTER_DESCRIPTION" Language="en_US">
+		<Text>A specialty district focusing on production with bonuses to Forests and Lumber Mills.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_OFFSHORE_SETTLEMENT_NAME" Language="en_US">
+		<Text>Offshore Colony</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_OFFSHORE_SETTLEMENT_DESCRIPTION" Language="en_US">
+		<Text>A neighborhood that can be built on coastal water.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_WATERFRONT_NAME" Language="en_US">
+		<Text>Waterfront</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_WATERFRONT_DESCRIPTION" Language="en_US">
+		<Text>Australian unique version of the Boardwalk. Provides +2 Appeal to surrounding tiles instead of the usual 1, and provides an additional +1 Appeal to all tiles in its home city's borders.</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_ZENSOCHI_NAME" Language="en_US">
+	      <Text>Zenso-chi</Text>
+	</Row>
+	<Row Tag="LOC_DISTRICT_ZENSOCHI_DESCRIPTION" Language="en_US">
+	      <Text>Japanese replacement for the Naval Base, with two additional air slots. Triggers a culture bomb when completed.</Text>
+	</Row>
+	<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ZENSOCHI_NAME" Language="en_US">
+	      <Text>Zenso-chi</Text>
+	</Row>
+
+ </LocalizedText>
+</GameData>

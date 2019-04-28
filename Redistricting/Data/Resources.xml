@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>	
+		<Row Type="RESOURCE_AMERICANSPIRIT" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_BREAD" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_ANCHOVIES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SAUSAGE" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Resources>
+		<Row ResourceType="RESOURCE_AMERICANSPIRIT" Name="LOC_RESOURCE_AMERICANSPIRIT_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="0"/>
+		<Row ResourceType="RESOURCE_BREAD" Name="LOC_RESOURCE_BREAD_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="3" Frequency="0"/>
+		<Row ResourceType="RESOURCE_ANCHOVIES" Name="LOC_RESOURCE_ANCHOVIES_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="3" Frequency="0"/>
+		<Row ResourceType="RESOURCE_SAUSAGE" Name="LOC_RESOURCE_SAUSAGE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="3" Frequency="0"/>
+	</Resources>
+</GameInfo>

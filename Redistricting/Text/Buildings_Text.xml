@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+ <BaseGameText>
+	<Row Tag="LOC_BUILDING_ADMIN_CENTER_NAME">
+		<Text>Administrative Center</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ADMIN_CENTER_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles (This does not apply to the adjacency bonus).</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_AGORA_NAME">
+		<Text>Agora</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_AGORA_DESCRIPTION">
+		<Text>Tier two City Center building. Cannot be built in the same city as Cloister or Slaver. +10% [ICON_Science] Science in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_ALTAR_NAME">
+		<Text>Altar</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ALTAR_DESCRIPTION">
+		<Text>Tier one City Center building. Cannot be built in the same city as Gardens or Fighting Pits.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_ANTIQUITIES_MUSEUM_NAME">
+		<Text>Museum of Antiquities</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ANTIQUITIES_MUSEUM_DESCRIPTION">
+		<Text>Egyptian replacement for the archaeological museum. Four slots for [ICON_GreatWork_Artifact] Artifacts instead of the usual two. Double theming bonuses.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SEA_PARK_NAME">
+		<Text>SEA_PARK</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_SEA_PARK_DESCRIPTION">
+		<Text>+25% Tourism in this city. Trade routes from this city generate +2 [ICON_Culture] Culture and +2 [ICON_Science] Science.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_ARCADE_NAME">
+		<Text>Arcade</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ARCADE_DESCRIPTION">
+		<Text>Trade routes from this city generate +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_ARCHITECT_NAME">
+		<Text>Architect</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ARCHITECT_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_ART_GALLERY_NAME">
+		<Text>Art Gallery</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_ART_GALLERY_DESCRIPTION">
+		<Text>+25% Tourism from this city. Trade routes from this city generate +2 [ICON_Culture] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_AUTO_FACTORY_NAME">
+		<Text>Auto Factory</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_AUTO_FACTORY_DESCRIPTION">
+		<Text>German replacement for the Steel Mill. In addition to the usual 2 [ICON_Housing] Housing to all cities in your Empire, this building provides +50% production toward Heavy Cavalry units in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BAKERY_NAME">
+		<Text>Bakery</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BAKERY_DESCRIPTION">
+		<Text>Creates 1 copy of [ICON_RESOURCE_BREAD] Bread, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BAKING_COMPANY_NAME">
+		<Text>Baking Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BAKING_COMPANY_DESCRIPTION">
+		<Text>Creates 1 additional copy of [ICON_RESOURCE_BREAD] Bread. The regional effect of this building extends six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BEER_GARDEN_DESCRIPTION">
+		<Text>German replacement for the Tavern. Provides +2 [ICON_Amenity] Entertainment instead of the usual 1, and has an extra citizen slot.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BEER_GARDEN_NAME">
+		<Text>Beer Garden</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BODEGA_NAME">
+		<Text>Bodega</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BODEGA_DESCRIPTION">
+		<Text>[ICON_RESOURCE_COFFEE] Coffee [ICON_RESOURCE_INCENSE] Incense [ICON_RESOURCE_TEA] Tea [ICON_RESOURCE_TOBACCO] Tobacco and [ICON_RESOURCE_WINE] Wine resources gain +2 [ICON_Gold] Gold each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BOOK_BINDER_NAME">
+		<Text>Book Binder</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BOOK_BINDER_DESCRIPTION">
+		<Text>Tier three City Center building. Cannot be built in same city as Reliquary or Guild Hall.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_BRICK_MAKER_NAME">
+		<Text>Brick Maker</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_BRICK_MAKER_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CAFE_NAME">
+		<Text>Cafe</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CAFE_DESCRIPTION">
+		<Text>[ICON_RESOURCE_CITRUS] Citrus [ICON_RESOURCE_SALT] Salt [ICON_RESOURCE_SPICES] Spices [ICON_RESOURCE_SUGAR] Sugar and [ICON_RESOURCE_TRUFFLES] Truffles resources gain +2 [ICON_Gold] Gold each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CALL_CENTER_NAME">
+		<Text>Call Center</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CALL_CENTER_DESCRIPTION">
+		<Text>Indian replacement for the Admin Center. Provides an additional +1 [ICON_Gold] Gold to International Trade Routes for all cities in your Empire. The regional effects of this building extend six tiles (This does not apply to the adjacency bonus).</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CANNERY_NAME">
+		<Text>Cannery</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CANNERY_DESCRIPTION">
+		<Text>Creates 1 copy of [ICON_RESOURCE_ANCHOVIES] Cans, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CANNING_COMPANY_NAME">
+		<Text>Canning Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CANNING_COMPANY_DESCRIPTION">
+		<Text>Creates 1 additional copy of [ICON_RESOURCE_ANCHOVIES] Cans. The regional effect of this building extends six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CARPENTER_NAME">
+		<Text>Carpenter</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CARPENTER_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CASINO_NAME">
+		<Text>Casino</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CASINO_DESCRIPTION">
+		<Text>Trade routes from this city generate +3 [ICON_Gold] Gold.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CHINAMAPAS_NAME">
+		<Text>Chinamapas</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CHINAMAPAS_DESCRIPTION">
+		<Text>Aztec replacement for the Garden. Provides +4 [ICON_Food] Food instead of the usual 2.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOCKTOWER_NAME">
+		<Text>Clocktower</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOCKTOWER_DESCRIPTION">
+		<Text>+10% [ICON_Production] Production in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOISTER_NAME">
+		<Text>Cloister</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOISTER_DESCRIPTION">
+		<Text>Tier two City Center building. Cannot be built in the same city as Agora or Slaver. +10% [ICON_Faith] Faith in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOTHING_COMPANY_NAME">
+		<Text>Clothing Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CLOTHING_COMPANY_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CONSTRUCTION_COMPANY_NAME">
+		<Text>Construction Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CONSTRUCTION_COMPANY_DESCRIPTION">
+		<Text>Provides an additional 1 [ICON_Housing] Housing to all cities in your Empire.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_COURTHOUSE_NAME">
+		<Text>Courthouse</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_COURTHOUSE_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles (This does not apply to the adjacency bonus).</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CULINARY_ACADEMY_NAME">
+		<Text>Culinary Academy</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CULINARY_ACADEMY_DESCRIPTION">
+		<Text>French replacement for the Food Company. [ICON_RESOURCE_TRUFFLES] Truffles and [ICON_RESOURCE_SPICES] Spices resources get +3 [ICON_Culture] Culture. The regional effects of this building extend six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_CURRY_HOUSE_NAME">
+		<Text>Curry House</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_CURRY_HOUSE_DESCRIPTION">
+		<Text>Indian and English replacement for the Restaurant. Provides an additional +2 [ICON_Culture] Culture and +2 [ICON_Gold] Gold to [ICON_RESOURCE_SPICES] Spices in the city's boundaries.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_DOCTORS_OFFICE_NAME">
+		<Text>Doctors Office</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_DOCTORS_OFFICE_DESCRIPTION">
+		<Text>Plus 10% Growth to all cities in your Empire.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_DRUG_COMPANY_NAME">
+		<Text>Drug Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_DRUG_COMPANY_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FIGHTING_PITS_NAME">
+		<Text>Fighting Pits</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FIGHTING_PITS_DESCRIPTION">
+		<Text>Tier one City Center building. Cannot be built in the same city as Garden or Altar.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FISHMONGER_NAME">
+		<Text>Fishmonger</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FISHMONGER_DESCRIPTION">
+		<Text>[ICON_RESOURCE_FISH] Fish and [ICON_RESOURCE_CRABS] Crabs resources gain +2 [ICON_Gold] Gold each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FOOD_COMPANY_NAME">
+		<Text>Restaurant Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FOOD_COMPANY_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FORGE_NAME">
+		<Text>Forge</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FORGE_DESCRIPTION">
+		<Text>Adds 1 [ICON_RESOURCE_IRON] Iron.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FRONTIER_OUTPOST_NAME">
+		<Text>Frontier Outpost</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FRONTIER_OUTPOST_DESCRIPTION">
+		<Text>American replacement for the Barracks. Grants access to the Manifest Destiny project.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_FURNITURE_COMPANY_NAME">
+		<Text>Furniture Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_FURNITURE_COMPANY_DESCRIPTION">
+		<Text>Provides an additional 1 [ICON_Housing] Housing to all cities in your Empire.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_GANESHA_SHRINE_NAME">
+		<Text>Ganesha Shrine</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_GANESHA_SHRINE_DESCRIPTION">
+		<Text>Indian replacement for the shrine. Provides one copy of [ICON_RESOURCE_IVORY] Ivory.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_GARDEN_NAME">
+		<Text>Gardens</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_GARDEN_DESCRIPTION">
+		<Text>Tier one City Center building. Cannot be built in the same city as Altar or Fighting Pits.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_GEM_CUTTER_NAME">
+		<Text>Gem Cutter</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_GEM_CUTTER_DESCRIPTION">
+		<Text>[ICON_RESOURCE_DIAMONDS] Diamonds [ICON_RESOURCE_IVORY] Ivory [ICON_RESOURCE_JADE] Jade [ICON_RESOURCE_PEARLS] Pearls and [ICON_RESOURCE_SILVER] Silver resources gain +2 [ICON_Gold] Gold each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_GUILD_HALL_NAME">
+		<Text>Guild Hall</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_GUILD_HALL_DESCRIPTION">
+		<Text>Tier three City Center building. Cannot be built in same city as Book Binder or Reliquary.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_HOSPITAL_NAME">
+		<Text>Hospital</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION">
+		<Text>Plus 20% Growth to all cities in your Empire.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_JEWELER_NAME">
+		<Text>Jeweler</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_JEWEL_COMPANY_NAME">
+		<Text>Jewelery Company</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_JEWEL_COMPANY_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_MAGISTRATE_NAME">
+		<Text>Magistrate</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_MAGISTRATE_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles (This does not apply to the adjacency bonus).</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_MANOR_NAME">
+		<Text>Manor</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_MANOR_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_MEGACASINO_NAME">
+		<Text>Mega Casino</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_MEGACASINO_DESCRIPTION">
+		<Text>+25% Tourism in this city. Trade routes from this city generate +2 [ICON_Culture] Culture and +5 [ICON_Gold] Gold.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_METALLURGIST_NAME">
+		<Text>Metallurgist</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_METALLURGIST_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_NITER_REFINERY_NAME">
+		<Text>Niter Refinery</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_NITER_REFINERY_DESCRIPTION">
+		<Text>Adds 1 [ICON_RESOURCE_NITER] Niter.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_PIER_NAME">
+		<Text>Pier</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_PIER_DESCRIPTION">
+		<Text>+25% Tourism from this City. Trade routes from this city generate +1 [ICON_Culture] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_PUB_NAME">
+		<Text>Pub</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_PUB_DESCRIPTION">
+		<Text>Domestic trade routes from the city provide +1 [ICON_Food] Food and +1 [ICON_Production] Production.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_RELIQUARY_NAME">
+		<Text>Reliquary</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_RELIQUARY_DESCRIPTION">
+		<Text>Tier three City Center building. Cannot be built in same city as Book Binder or Guild Hall.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_RESORT_HOTEL_NAME">
+		<Text>Resort Hotel</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_RESORT_HOTEL_DESCRIPTION">
+		<Text>+50% Tourism in this city. Trade routes from this city generate +2 [ICON_Culture] Culture and +2 [ICON_Gold] Gold.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_RESTAURANT_NAME">
+		<Text>Restaurant</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_RESTAURANT_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SHOWGROUND_NAME">
+		<Text>Showground</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_SHOWGROUND_DESCRIPTION">
+		<Text>The regional effects of this building extend for six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SLAUGHTERHOUSE_NAME">
+		<Text>Slaughterhouse</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_SLAUGHTERHOUSE_DESCRIPTION">
+		<Text>Creates 1 additional copy of [ICON_RESOURCE_SAUSAGE] Sausage. The regional effect of this building extends six tiles.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SLAVER_NAME">
+		<Text>Slaver</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_SLAVER_DESCRIPTION">
+		<Text>Tier two City Center building. Cannot be built in the same city as Cloister or Agora. +10% [ICON_Production] Production in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_SMOKEHOUSE_NAME">
+		<Text>Smokehouse</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>	
+	<Row Tag="LOC_BUILDING_SMOKEHOUSE_DESCRIPTION">
+		<Text>Creates 1 copy of [ICON_RESOURCE_SAUSAGE] Sausage, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_STABLE_DESCRIPTION2">
+		<Text>+25% combat experience for all cavalry units trained in this city. Adds 1 [ICON_RESOURCE_HORSES] Horse.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_STATIONER_NAME">
+		<Text>Stationer</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_STATIONER_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_STEEL_MILL_NAME">
+		<Text>Steel Mill</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_STEEL_MILL_DESCRIPTION">
+		<Text>Provides an additional 1 [ICON_Housing] Housing to all cities in your Empire.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_STOCKYARD_NAME">
+		<Text>Stockyard</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_STOCKYARD_DESCRIPTION">
+		<Text>[ICON_RESOURCE_CATTLE] Cattle and [ICON_RESOURCE_SHEEP] Sheep resources gain +1 [ICON_Food] Food each.</Text>
+	</Row>	
+	<Row Tag="LOC_BUILDING_SUSHI_BAR_NAME">
+		<Text>Sushi Bar</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_SUSHI_BAR_DESCRIPTION">
+		<Text>Japanese replacement for the restaurant. Provides +1 [ICON_Culture] Culture to [ICON_RESOURCE_FISH] Fish, [ICON_RESOURCE_CRABS] Crabs, and [ICON_RESOURCE_WHALES] Whales.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TAVERN_NAME">
+		<Text>Tavern</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TAVERN_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TAX_COLLECTOR_NAME">
+		<Text>Tax Collector</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TAX_COLLECTOR_DESCRIPTION">
+		<Text>The regional effects of this building extend six tiles (This does not apply to the adjacency bonus).</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TEA_HOUSE_NAME">
+		<Text>Tea House</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TEA_HOUSE_DESCRIPTION">
+		<Text>Chinese and Japanese replacement for the Bodega. [ICON_RESOURCE_COFFEE] Coffee [ICON_RESOURCE_INCENSE] Incense [ICON_RESOURCE_TEA] Tea [ICON_RESOURCE_TOBACCO] Tobacco and [ICON_RESOURCE_WINE] Wine resources gain +2 [ICON_Gold] Gold each. [ICON_RESOURCE_TEA] Tea resources gain an additional +1 [ICON_Science] Science and +1 [ICON_Culture] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_WEAVER_NAME">
+		<Text>Weaver</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_WEAVER_DESCRIPTION">
+		<Text>[ICON_RESOURCE_COTTON] Cotton [ICON_RESOURCE_DYES] Dyes [ICON_RESOURCE_FURS] Furs and [ICON_RESOURCE_SILK] Silk resources gain +2 [ICON_Gold] Gold each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TAILOR_NAME">
+		<Text>Tailor</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TARGET_RANGE_NAME">
+		<Text>Target Range</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TARGET_RANGE_DESCRIPTION">
+		<Text>+25% experience to ranged units trained in this city.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TEMPLE_LAW_NAME">
+		<Text>Temple of Law</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TEMPLE_LAW_DESCRIPTION">
+		<Text>Sumerian replacement for the Magistrate. Produces extra [ICON_Science] Science and [ICON_Production] Production for nearby cities at the expense of [ICON_Gold] Gold.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_TOURISM_MINISTRY_NAME">
+		<Text>Tourism Ministry</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_TOURISM_MINISTRY_DESCRIPTION">
+		<Text>Egyptian replacement for the Visitors' Center. +50% Tourism in this city. Trade routes from this city generate +1 [ICON_Gold] Gold and +1 [ICON_CULTURE] Culture. In addition, artifacts throughout your empire generate +5 [ICON_Gold] Gold and +50% Tourism.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_VISITORS_CENTER_NAME">
+		<Text>Visitors' Center</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_VISITORS_CENTER_DESCRIPTION">
+		<Text>+50% Tourism in this city. Trade routes from this city generate +1 [ICON_Gold] Gold and +1 [ICON_CULTURE] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION2">
+		<Text>[ICON_RESOURCE_RICE] Rice and [ICON_RESOURCE_WHEAT] Wheat resources gain +1 [ICON_Food] Food each.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_WINERY_NAME">
+		<Text>Winery</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_WINERY_DESCRIPTION">
+		<Text>[ICON_RESOURCE_WINE] Wine resources within this city's borders gain +3 [ICON_Culture] Culture.</Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_WOOD_CARVER_NAME">
+		<Text>Wood Carver</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_BUILDING_WOOD_CARVER_DESCRIPTION">
+		<Text></Text>
+	</Row>
+	<Row Tag="LOC_BUILDING_WURSTELSTAND_NAME">
+		<Text>Wurstelstand</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>	
+	<Row Tag="LOC_BUILDING_WURSTELSTAND_DESCRIPTION">
+		<Text>German replacement for the Smokehouse. Creates 1 copy of [ICON_RESOURCE_SAUSAGE] Sausage, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
+	</Row>
+ </BaseGameText>
+</GameData>

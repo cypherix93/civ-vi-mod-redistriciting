@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+ <BaseGameText>
+	<Row Tag="LOC_RESOURCE_ANCHOVIES_NAME">
+		<Text>Anchovies</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_RESOURCE_ANCHOVIES_DESCRIPTION">
+		<Text>Uniquely produced luxury resource.</Text>
+	</Row>
+	<Row Tag="LOC_RESOURCE_BREAD_NAME">
+		<Text>Bread</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_RESOURCE_BREAD_DESCRIPTION">
+		<Text>Uniquely produced luxury resource.</Text>
+	</Row>
+	<Row Tag="LOC_RESOURCE_SAUSAGE_NAME">
+		<Text>Sausage</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_RESOURCE_SAUSAGE_DESCRIPTION">
+		<Text>Uniquely produced luxury resource.</Text>
+	</Row>
+	<Row Tag="LOC_RESOURCE_AMERICANSPIRIT_NAME">
+		<Text>American Spirit</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Row>
+	<Row Tag="LOC_RESOURCE_AMERICANSPIRIT_DESCRIPTION">
+		<Text>A certain intangible quality like the small of warm apple pie, or napalm in the morning.</Text>
+	</Row>
+ </BaseGameText>
+</GameData>
