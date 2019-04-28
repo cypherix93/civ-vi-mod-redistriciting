@@ -5,6 +5,7 @@
 	<Description>New Districts and Buildings</Description>
 	<Teaser>Redistricting</Teaser>
 	<Authors>Ananse, Pottsie200</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
 </Properties>
 <Dependencies>
 	<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
