@@ -47,7 +47,7 @@
 		<Text>Culinary Quarter</Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_CULINARY_QUARTER_DESCRIPTION" Language="en_US">
-		<Text>A specialty district that utilizes [ICON_RESOURCE_TRUFFLES] Truffles, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_SPICES] Spices. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+		<Text>A specialty district that utilizes [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_SPICES] Spices. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_CULINARY_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
 		<Text>Adjacency: Double [ICON_Culture] Culture [ICON_Food] Food and [ICON_Gold] Gold for adjacent Commercial Hubs.</Text>
@@ -149,7 +149,7 @@
 		<Text>Jewelers' Quarter</Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_JEWELERS_QUARTER_DESCRIPTION" Language="en_US">
-		<Text>A specialty district that utilizes [ICON_RESOURCE_DIAMONDS] Diamonds, [ICON_RESOURCE_SILVER] Silver, [ICON_RESOURCE_JADE] Jade, [ICON_RESOURCE_IVORY] Ivory and [ICON_RESOURCE_PEARLS] Pearls. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
+		<Text>A specialty district that utilizes [ICON_RESOURCE_AMBER] Amber, [ICON_RESOURCE_DIAMONDS] Diamonds, [ICON_RESOURCE_SILVER] Silver, [ICON_RESOURCE_JADE] Jade, [ICON_RESOURCE_IVORY] Ivory and [ICON_RESOURCE_PEARLS] Pearls. [NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, so long as the city doesn't have another Luxury District.</Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_JEWELER_QUARTER_DESCRIPTION_ADJACENCY" Language="en_US">
 		<Text>Adjacency: Double [ICON_Culture] Culture [ICON_Gold] Gold and [ICON_Production] Production for adjacent Commercial Hubs.</Text>
@@ -185,7 +185,7 @@
 		<Text>Smiths' Quarter</Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_SMITHS_QUARTER_DESCRIPTION" Language="en_US">
-		<Text>A specialty district focusing on production with bonuses to [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron, and [ICON_RESOURCE_MERCURY] Mercury. </Text>
+		<Text>A specialty district focusing on production with bonuses to [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron, [ICON_RESOURCE_COAL] Coal, [ICON_RESOURCE_ALUMINUM] Aluminum and [ICON_RESOURCE_MERCURY] Mercury. </Text>
 	</Row>
 	<Row Tag="LOC_DISTRICT_STANNARY_NAME" Language="en_US">
 	      <Text>Stannary</Text>

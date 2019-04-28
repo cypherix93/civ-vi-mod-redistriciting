@@ -151,10 +151,10 @@
 		<Row BuildingType="BUILDING_AGORA" Name="LOC_BUILDING_AGORA_NAME" Description="LOC_BUILDING_AGORA_DESCRIPTION" PrereqCivic="CIVIC_RECORDED_HISTORY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="140" AdvisorType="ADVISOR_GENERIC"/>
 		<Row BuildingType="BUILDING_ALTAR" Name="LOC_BUILDING_ALTAR_NAME" PrereqCivic="CIVIC_MYSTICISM" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC"/>
 		<Row BuildingType="BUILDING_ANTIQUITIES_MUSEUM" Name="LOC_BUILDING_ANTIQUITIES_MUSEUM_NAME" Description="LOC_BUILDING_ANTIQUITIES_MUSEUM_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="265" AdvisorType="ADVISOR_CULTURE" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_ANTIQUITIES_MUSEUM"/>
-		<Row BuildingType="BUILDING_ARCADE" Name="LOC_BUILDING_ARCADE_NAME" Description="LOC_BUILDING_ARCADE_DESCRIPTION" PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="600" Maintenance="4" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_SEA_PARK" Name="LOC_BUILDING_SEA_PARK_NAME" Description="LOC_BUILDING_SEA_PARK_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" Maintenance="10" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_ARCADE" Name="LOC_BUILDING_ARCADE_NAME" Description="LOC_BUILDING_ARCADE_DESCRIPTION" PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="600" Maintenance="4" Entertainment="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_SEA_PARK" Name="LOC_BUILDING_SEA_PARK_NAME" Description="LOC_BUILDING_SEA_PARK_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" Maintenance="10" Entertainment="4" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
 		<Row BuildingType="BUILDING_ARCHITECT" Name="LOC_BUILDING_ARCHITECT_NAME" Description="LOC_BUILDING_ARCHITECT_DESCRIPTION" PrereqTech="TECH_CASTLES" PrereqDistrict="DISTRICT_MASONS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_ART_GALLERY" Name="LOC_BUILDING_ART_GALLERY_NAME" Description="LOC_BUILDING_ART_GALLERY_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="400" Maintenance="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_ART_GALLERY" Name="LOC_BUILDING_ART_GALLERY_NAME" Description="LOC_BUILDING_ART_GALLERY_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="400" Maintenance="2" Entertainment="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_AUTO_FACTORY" Name="LOC_BUILDING_AUTO_FACTORY_NAME" Description="LOC_BUILDING_AUTO_FACTORY_DESCRIPTION" PrereqTech="TECH_STEEL" PrereqDistrict="DISTRICT_SMITHS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="600" Housing="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_AUTO_FACTORY"/>
 		<Row BuildingType="BUILDING_BAKERY" Name="LOC_BUILDING_BAKERY_NAME" Description="LOC_BUILDING_BAKERY_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_MILLERS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_BAKING_COMPANY" Name="LOC_BUILDING_BAKING_COMPANY_NAME" Description="LOC_BUILDING_BAKING_COMPANY_DESCRIPTION" PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_MILLERS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="200" RegionalRange="6" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
@@ -162,12 +162,12 @@
 		<Row BuildingType="BUILDING_BODEGA" Name="LOC_BUILDING_BODEGA_NAME" Description="LOC_BUILDING_BODEGA_DESCRIPTION" PrereqCivic="CIVIC_MERCENARIES" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_BOOK_BINDER" Name="LOC_BUILDING_BOOK_BINDER_NAME" PrereqCivic="CIVIC_GUILDS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" AdvisorType="ADVISOR_GENERIC"/>
 		<Row BuildingType="BUILDING_BRICK_MAKER" Name="LOC_BUILDING_BRICK_MAKER_NAME" Description="LOC_BUILDING_BRICK_MAKER_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_MASONS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_CAFE" Name="LOC_BUILDING_CAFE_NAME" Description="LOC_BUILDING_CAFE_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" PrereqDistrict="DISTRICT_CULINARY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_CAFE" Name="LOC_BUILDING_CAFE_NAME" Description="LOC_BUILDING_CAFE_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" PrereqDistrict="DISTRICT_CULINARY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" Entertainment="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_CALL_CENTER" Name="LOC_BUILDING_CALL_CENTER_NAME" Description="LOC_BUILDING_CALL_CENTER_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" PrereqDistrict="DISTRICT_GOVERNMENT_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" RegionalRange="9" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_CALL_CENTER"/>
 		<Row BuildingType="BUILDING_CANNERY" Name="LOC_BUILDING_CANNERY_NAME" Description="LOC_BUILDING_CANNERY_DESCRIPTION" PrereqTech="TECH_MACHINERY" PrereqDistrict="DISTRICT_FISHERY" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_CANNING_COMPANY" Name="LOC_BUILDING_CANNING_COMPANY_NAME" Description="LOC_BUILDING_CANNING_COMPANY_DESCRIPTION" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_FISHERY" PurchaseYield="YIELD_GOLD" Cost="200" RegionalRange="8" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
 		<Row BuildingType="BUILDING_CARPENTER" Name="LOC_BUILDING_CARPENTER_NAME" Description="LOC_BUILDING_CARPENTER_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_FORESTRY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_CASINO" Name="LOC_BUILDING_CASINO_NAME" Description="LOC_BUILDING_CASINO_DESCRIPTION" PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="600" Maintenance="4" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_CASINO" Name="LOC_BUILDING_CASINO_NAME" Description="LOC_BUILDING_CASINO_DESCRIPTION" PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="600" Entertainment="2" Maintenance="4" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_CHINAMAPAS" Name="LOC_BUILDING_CHINAMAPAS_NAME" PrereqTech="TECH_IRRIGATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" Housing="2" AdvisorType="ADVISOR_GENERIC" TraitType="TRAIT_CIVILIZATION_BUILDING_CHINAMAPAS"/>
 		<Row BuildingType="BUILDING_CLOCKTOWER" Name="LOC_BUILDING_CLOCKTOWER_NAME" Description="LOC_BUILDING_CLOCKTOWER_DESCRIPTION" PrereqTech="TECH_ASTRONOMY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" AdvisorType="ADVISOR_GENERIC"/>
 		<Row BuildingType="BUILDING_CLOISTER" Name="LOC_BUILDING_CLOISTER_NAME" Description="LOC_BUILDING_CLOISTER_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="140" AdvisorType="ADVISOR_GENERIC"/>
@@ -194,12 +194,12 @@
 		<Row BuildingType="BUILDING_METALLURGIST" Name="LOC_BUILDING_METALLURGIST_NAME" Description="LOC_BUILDING_METALLURGIST_DESCRIPTION" PrereqTech="TECH_CASTLES" PrereqDistrict="DISTRICT_SMITHS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_MAGISTRATE" Name="LOC_BUILDING_MAGISTRATE_NAME" Description="LOC_BUILDING_MAGISTRATE_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" PrereqDistrict="DISTRICT_GOVERNMENT_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" RegionalRange="6" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_MANOR" Name="LOC_BUILDING_MANOR_NAME" PrereqTech="TECH_CARTOGRAPHY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" Housing="2" AdvisorType="ADVISOR_GENERIC"/>
-		<Row BuildingType="BUILDING_MEGACASINO" Name="LOC_BUILDING_MEGACASINO_NAME" Description="LOC_BUILDING_MEGACASINO_DESCRIPTION" PrereqCivic="CIVIC_GLOBALIZATION" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" Maintenance="10" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_MEGACASINO" Name="LOC_BUILDING_MEGACASINO_NAME" Description="LOC_BUILDING_MEGACASINO_DESCRIPTION" PrereqCivic="CIVIC_GLOBALIZATION" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" Maintenance="10" Entertainment="4" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
 		<Row BuildingType="BUILDING_NITER_REFINERY" Name="LOC_BUILDING_NITER_REFINERY_NAME" Description="LOC_BUILDING_NITER_REFINERY_DESCRIPTION" PrereqTech="TECH_GUNPOWDER" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_GENERIC"/>
-		<Row BuildingType="BUILDING_PIER" Name="LOC_BUILDING_PIER_NAME" Description="LOC_BUILDING_PIER_DESCRIPTION" PrereqTech="TECH_CARTOGRAPHY" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="300" Maintenance="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_PUB" Name="LOC_BUILDING_PUB_NAME" Description="LOC_BUILDING_PUB_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PUB"/>
+		<Row BuildingType="BUILDING_PIER" Name="LOC_BUILDING_PIER_NAME" Description="LOC_BUILDING_PIER_DESCRIPTION" PrereqTech="TECH_CARTOGRAPHY" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="300" Maintenance="2" Entertainment="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_PUB" Name="LOC_BUILDING_PUB_NAME" Description="LOC_BUILDING_PUB_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="2" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PUB"/>
 		<Row BuildingType="BUILDING_RELIQUARY" Name="LOC_BUILDING_RELIQUARY_NAME" PrereqCivic="CIVIC_DIVINE_RIGHT" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" AdvisorType="ADVISOR_GENERIC"/>
-		<Row BuildingType="BUILDING_RESORT_HOTEL" Name="LOC_BUILDING_RESORT_HOTEL_NAME" Description="LOC_BUILDING_RESORT_HOTEL_DESCRIPTION" PrereqTech="TECH_TELECOMMUNICATIONS" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_RESORT_HOTEL" Name="LOC_BUILDING_RESORT_HOTEL_NAME" Description="LOC_BUILDING_RESORT_HOTEL_DESCRIPTION" PrereqTech="TECH_TELECOMMUNICATIONS" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1200" Entertainment="3" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
 		<Row BuildingType="BUILDING_RESTAURANT" Name="LOC_BUILDING_RESTAURANT_NAME" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_CULINARY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_SLAUGHTERHOUSE" Name="LOC_BUILDING_SLAUGHTERHOUSE_NAME" Description="LOC_BUILDING_SLAUGHTERHOUSE_DESCRIPTION" PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_BUTCHERS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="200" RegionalRange="6" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
 		<Row BuildingType="BUILDING_SLAVER" Name="LOC_BUILDING_SLAVER_NAME" Description="LOC_BUILDING_SLAVER_DESCRIPTION" PrereqCivic="CIVIC_MILITARY_TRAINING" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="140" AdvisorType="ADVISOR_GENERIC"/>
@@ -209,13 +209,13 @@
 		<Row BuildingType="BUILDING_STOCKYARD" Name="LOC_BUILDING_STOCKYARD_NAME" Description="LOC_BUILDING_STOCKYARD_DESCRIPTION" PrereqTech="TECH_ANIMAL_HUSBANDRY" PrereqDistrict="DISTRICT_BUTCHERS_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_SUSHI_BAR" Name="LOC_BUILDING_SUSHI_BAR_NAME" Description="LOC_BUILDING_SUSHI_BAR_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_CULINARY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_SUSHI_BAR"/>
 		<Row BuildingType="BUILDING_TAILOR" Name="LOC_BUILDING_TAILOR_NAME" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_TEXTILES_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
-		<Row BuildingType="BUILDING_TARGET_RANGE" Name="LOC_BUILDING_TARGET_RANGE_NAME" Description="LOC_BUILDING_TARGET_RANGE_DESCRIPTION" PrereqTech="TECH_ARCHERY" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="75" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" Housing="1"/>
+		<Row BuildingType="BUILDING_TARGET_RANGE" Name="LOC_BUILDING_TARGET_RANGE_NAME" Description="LOC_BUILDING_TARGET_RANGE_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="75" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" Housing="1"/>
 		<Row BuildingType="BUILDING_TAVERN" Name="LOC_BUILDING_TAVERN_NAME" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_TAX_COLLECTOR" Name="LOC_BUILDING_TAX_COLLECTOR_NAME" Description="LOC_BUILDING_TAX_COLLECTOR_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_GOVERNMENT_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" RegionalRange="6" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_TEA_HOUSE" Name="LOC_BUILDING_TEA_HOUSE_NAME" Description="LOC_BUILDING_TEA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_MERCENARIES" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TEA_HOUSE"/>
 		<Row BuildingType="BUILDING_TEMPLE_LAW" Name="LOC_BUILDING_TEMPLE_LAW_NAME" Description="LOC_BUILDING_TEMPLE_LAW_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" PrereqDistrict="DISTRICT_GOVERNMENT_CENTER" PurchaseYield="YIELD_GOLD" Cost="100" RegionalRange="6" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_TEMPLE_LAW"/>
-		<Row BuildingType="BUILDING_TOURISM_MINISTRY" Name="LOC_BUILDING_TOURISM_MINISTRY_NAME" Description="LOC_BUILDING_TOURISM_MINISTRY_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1000" Maintenance="7" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_TOURISM_MINISTRY"/>
-		<Row BuildingType="BUILDING_VISITORS_CENTER" Name="LOC_BUILDING_VISITORS_CENTER_NAME" Description="LOC_BUILDING_VISITORS_CENTER_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1000" Maintenance="7" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_TOURISM_MINISTRY" Name="LOC_BUILDING_TOURISM_MINISTRY_NAME" Description="LOC_BUILDING_TOURISM_MINISTRY_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1000" Maintenance="7" Entertainment="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_TOURISM_MINISTRY"/>
+		<Row BuildingType="BUILDING_VISITORS_CENTER" Name="LOC_BUILDING_VISITORS_CENTER_NAME" Description="LOC_BUILDING_VISITORS_CENTER_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" PrereqDistrict="DISTRICT_BOARDWALK" PurchaseYield="YIELD_GOLD" Cost="1000" Maintenance="7" Entertainment="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_WEAVER" Name="LOC_BUILDING_WEAVER_NAME" Description="LOC_BUILDING_WEAVER_DESCRIPTION" PrereqTech="TECH_CONSTRUCTION" PrereqDistrict="DISTRICT_TEXTILES_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_WINERY" Name="LOC_BUILDING_WINERY_NAME" Description="LOC_BUILDING_WINERY_DESCRIPTION" PrereqTech="TECH_CARTOGRAPHY" PrereqDistrict="DISTRICT_CANTINA_QUARTER" PurchaseYield="YIELD_GOLD" Cost="100" Entertainment="1" Housing="2" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_WINERY"/>
 		<Row BuildingType="BUILDING_WOOD_CARVER" Name="LOC_BUILDING_WOOD_CARVER_NAME" Description="LOC_BUILDING_WOOD_CARVER_DESCRIPTION" PrereqCivic="CIVIC_CRAFTSMANSHIP" PrereqDistrict="DISTRICT_FORESTRY_QUARTER" PurchaseYield="YIELD_GOLD" Cost="60" Housing="1" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
@@ -387,7 +387,9 @@
 		<Row BuildingType="BUILDING_AUTO_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_BAKERY" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_BAKERY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_BAKERY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_BAKING_COMPANY" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_BAKING_COMPANY" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Row BuildingType="BUILDING_BODEGA" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row BuildingType="BUILDING_BODEGA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CAFE" YieldType="YIELD_GOLD" YieldChange="1"/>
@@ -657,9 +659,44 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>BAKERY_ADDWHEATFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WHEAT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BAKERY_ADDRICEFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_RICE</SubjectRequirementSetId>
+		</Row>
+		<Row>
 			<ModifierId>BODEGA_ADDCOFFEEGOLD</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>RESOURCE_IS_COFFEE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierID>FORGE_ADDCOPPERGOLD</ModifierID>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_COPPER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierID>FORGE_ADDMERCURYGOLD</ModifierID>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_MERCURY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierID>FORGE_ADDCOALPRODUCTION</ModifierID>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_COAL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierID>FORGE_ADDALUMINUMPRODUCTION</ModifierID>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ALUMINUM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierID>FORGE_ADDIRONPRODUCTION</ModifierID>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_IRON</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>BODEGA_ADDINCENSEGOLD</ModifierId>
@@ -1167,6 +1204,26 @@
 			<Value>1</Value>
 		</Row>
 		<Row>
+			<ModifierId>BAKERY_ADDWHEATFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BAKERY_ADDWHEATFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>BAKERY_ADDRICEFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BAKERY_ADDRICEFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
 			<ModifierId>BOARDWALK_25TOURISM</ModifierId>
 			<Name>Amount</Name>
 			<Value>25</Value>
@@ -1185,6 +1242,56 @@
 			<ModifierId>BODEGA_ADDCOFFEEGOLD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDCOPPERGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDCOPPERGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDMERCURYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDMERCURYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDCOALPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDCOALPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDALUMINUMPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDALUMINUMPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDIRONPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORGE_ADDIRONPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 		<Row>
 			<ModifierId>BODEGA_ADDINCENSEGOLD</ModifierId>
@@ -1370,7 +1477,7 @@
 		<Row>
 			<ModifierId>DOCTORS_OFFICE_GROWTH</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>5</Value>
 		</Row>
 		<Row>
 			<ModifierId>FISHMONGER_ADDFISHGOLD</ModifierId>
@@ -1778,8 +1885,40 @@
 			<ModifierId>BAKERY_BREAD</ModifierId>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<ModifierId>BAKERY_ADDWHEATFOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<ModifierId>BAKERY_ADDRICEFOOD</ModifierId>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BAKING_COMPANY</BuildingType>
-			<ModifierId>BAKERY_BREAD</ModifierId>
+			<ModifierId>BAKERY_ADDRICEFOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAKING_COMPANY</BuildingType>
+			<ModifierId>BAKERY_ADDWHEATFOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_ADDCOPPERGOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_ADDMERCURYGOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_ADDCOALPRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_ADDIRONPRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_ADDALUMINUMPRODUCTION</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BODEGA</BuildingType>
@@ -2140,6 +2279,26 @@
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
+			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
 			<RequirementId>REQUIRES_CATTLE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
@@ -2256,6 +2415,31 @@
 			<RequirementId>REQUIRES_WHALES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_WHALES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COPPER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MERCURY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_CATTLE_IN_PLOT</RequirementId>
@@ -2400,6 +2584,26 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
+			<RequirementSetId>RESOURCE_IS_COAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_IRON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ALUMINUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_COPPER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_MERCURY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
 			<RequirementSetId>RESOURCE_IS_CATTLE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
@@ -2518,6 +2722,26 @@
 		<Row>
 			<RequirementSetId>RESOURCE_IS_WHALES</RequirementSetId>
 			<RequirementId>REQUIRES_WHALES_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_COAL</RequirementSetId>
+			<RequirementId>REQUIRES_COAL_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_IRON</RequirementSetId>
+			<RequirementId>REQUIRES_IRON_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_MERCURY</RequirementSetId>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ALUMINUM</RequirementSetId>
+			<RequirementId>REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_COPPER</RequirementSetId>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_CATTLE</RequirementSetId>

@@ -30,7 +30,7 @@
 		<Text>Egyptian replacement for the archaeological museum. Four slots for [ICON_GreatWork_Artifact] Artifacts instead of the usual two. Double theming bonuses.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_SEA_PARK_NAME">
-		<Text>SEA_PARK</Text>
+		<Text>Sea Park</Text>
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_SEA_PARK_DESCRIPTION">
@@ -69,14 +69,14 @@
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_BAKERY_DESCRIPTION">
-		<Text>Creates 1 copy of [ICON_RESOURCE_BREAD] Bread, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
+		<Text>Creates 1 additional copy of [ICON_RESOURCE_BREAD] Bread. The regional effect of this building extends six tiles. [ICON_RESOURCE_RICE] Rice and [ICON_RESOURCE_WHEAT] Wheat resources gain +3 [ICON_Food] Food each.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_BAKING_COMPANY_NAME">
 		<Text>Baking Company</Text>
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_BAKING_COMPANY_DESCRIPTION">
-		<Text>Creates 1 additional copy of [ICON_RESOURCE_BREAD] Bread. The regional effect of this building extends six tiles.</Text>
+		<Text>Creates 1 additional copy of [ICON_RESOURCE_BREAD] Bread. The regional effect of this building extends six tiles. [ICON_RESOURCE_RICE] Rice and [ICON_RESOURCE_WHEAT] Wheat resources gain +3 [ICON_Food] Food each</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_BEER_GARDEN_DESCRIPTION">
 		<Text>German replacement for the Tavern. Provides +2 [ICON_Amenity] Entertainment instead of the usual 1, and has an extra citizen slot.</Text>
@@ -244,7 +244,7 @@
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_FORGE_DESCRIPTION">
-		<Text>Adds 1 [ICON_RESOURCE_IRON] Iron.</Text>
+		<Text>Adds 1 [ICON_RESOURCE_IRON] Iron. Adds 1 [ICON_GOLD] to Copper and Mercury. Adds 1 [ICON_PRODUCTION] to Coal, Iron and ALuminum</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_FRONTIER_OUTPOST_NAME">
 		<Text>Frontier Outpost</Text>

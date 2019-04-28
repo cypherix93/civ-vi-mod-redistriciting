@@ -586,14 +586,14 @@
 		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_CANTINA_QUARTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_CEREMONIAL_CENTER" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_CULINARY_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_EANNA" YieldType="YIELD_SCIENCE" YieldChange="3"/>
-		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_FISHERY" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_FORESTRY_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
@@ -601,7 +601,7 @@
 		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_GAUSHALA" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_GOLD" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_FOOD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_GORD" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_FAITH" YieldChange="1"/>
@@ -609,16 +609,16 @@
 		<Row DistrictType="DISTRICT_GOVERNMENT_CENTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_MASONS_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_GOLD" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_MARCHE" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_GOLD" YieldChange="3"/>
-		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_MEDICAL_CENTER" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_MILLERS_QUARTER" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_NAVAL_BASE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_NOME" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_JEWELERS_QUARTER" YieldType="YIELD_GOLD" YieldChange="2"/>
@@ -683,11 +683,11 @@
 		<Row ID="Commercial_Hub_Gold" Description="LOC_DISTRICT_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 		<Row ID="Commercial_Hub_Production" Description="LOC_DISTRICT_COMMERCIAL_HUB_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 		<Row ID="Commercial_Hub_Science" Description="LOC_DISTRICT_COMMERCIAL_HUB_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
-			<Row ID="Marche_Culture" Description="LOC_DISTRICT_MARCHE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
-			<Row ID="Marche_Food" Description="LOC_DISTRICT_MARCHE_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
-			<Row ID="Marche_Gold" Description="LOC_DISTRICT_MARCHE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
-			<Row ID="Marche_Production" Description="LOC_DISTRICT_MARCHE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
-			<Row ID="Marche_Science" Description="LOC_DISTRICT_MARCHE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="Marche_Culture" Description="LOC_DISTRICT_MARCHE_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="Marche_Food" Description="LOC_DISTRICT_MARCHE_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="Marche_Gold" Description="LOC_DISTRICT_MARCHE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="Marche_Production" Description="LOC_DISTRICT_MARCHE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
+		<Row ID="Marche_Science" Description="LOC_DISTRICT_MARCHE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_MARCHE"/>
 		<Row ID="CULINARY_Quarter_Food" Description="LOC_DISTRICT_CULINARY_QUARTER_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CULINARY_QUARTER"/>
 		<Row ID="CULINARY_Quarter_Production" Description="LOC_DISTRICT_CULINARY_QUARTER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CULINARY_QUARTER"/>
 		<Row ID="District_Faith_Standard" Description="LOC_DISTRICT_DISTRICT_FAITH_STANDARD" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
