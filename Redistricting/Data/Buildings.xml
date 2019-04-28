@@ -811,9 +811,7 @@
 		</Row>
 		<Row>
 			<ModifierId>FORGE_IRON</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>FRONTIER_OUTPOST_SPIRIT</ModifierId>
@@ -863,9 +861,7 @@
 		</Row>
 		<Row>
 			<ModifierId>NITER_REFINERY_NITER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>PUB_DOMESTICFOOD</ModifierId>
@@ -897,9 +893,7 @@
 		</Row>
 		<Row>
 			<ModifierId>STABLE_HORSES</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>SUSHI_BAR_ADDFISHCULTURE</ModifierId>
