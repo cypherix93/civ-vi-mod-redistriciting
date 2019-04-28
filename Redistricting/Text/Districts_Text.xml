@@ -22,12 +22,6 @@
 	<Row Tag="LOC_DISTRICT_BUTCHERS_QUARTER_DESCRIPTION" Language="en_US">
 		<Text>A specialty district focusing on city growth that provides bonuses to pastures and camps.</Text>
 	</Row>
-	<Row Tag="LOC_DISTRICT_CANAL_NAME" Language="en_US">
-		<Text>Canal</Text>
-	</Row>
-	<Row Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
-		<Text>A specialty district focusing on city growth that provides bonuses to pastures and camps.</Text>
-	</Row>
 	<Row Tag="LOC_DISTRICT_CANTINA_QUARTER_NAME" Language="en_US">
 		<Text>Cantina Quarter</Text>
 	</Row>
