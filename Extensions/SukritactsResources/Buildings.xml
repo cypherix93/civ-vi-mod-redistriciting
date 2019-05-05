@@ -50,15 +50,15 @@
 
 	<Requirements>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKCAMEL_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKBISON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKGOLD_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_GOLD_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
