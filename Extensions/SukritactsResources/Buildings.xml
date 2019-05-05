@@ -1,71 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <GameInfo>
-	<Modifiers>
-		<Row>
-			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>CAFE_ADDGOLD_SUK</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</SubjectRequirementSetId>
-		</Row>
-	</Modifiers>
-
-	<ModifierArguments>
-		<Row>
-			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>CAFE_ADDGOLD_SUK</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>CAFE_ADDGOLD_SUK</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-	</ModifierArguments>
-
-	<BuildingModifiers>
-		<Row>
-			<BuildingType>BUILDING_STOCKYARD</BuildingType>
-			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GEM_CUTTER</BuildingType>
-			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CAFE</BuildingType>
-			<ModifierId>CAFE_ADDGOLD_SUK</ModifierId>
-		</Row>
-	</BuildingModifiers>
-
+	<!--============================================================================== Checks for Resources in plots -->
 	<Requirements>
 		<Row>
 			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
@@ -92,7 +27,6 @@
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
-
 	<RequirementArguments>
 		<Row>
 			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
@@ -126,6 +60,130 @@
 		</Row>
 	</RequirementArguments>
 
+	<!--============================================================================== Modifiers for buildings -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STOCKYARD_ADD_FOOD_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GEM_CUTTER_ADD_GOLD_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CAFE_ADD_GOLD_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CULINARY_ACADEMY_ADD_CULTURE_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WEAVER_ADD_GOLD_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SUSHI_BAR_ADD_CULTURE_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STOCKYARD_ADD_FOOD_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STOCKYARD_ADD_FOOD_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GEM_CUTTER_ADD_GOLD_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GEM_CUTTER_ADD_GOLD_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAFE_ADD_GOLD_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAFE_ADD_GOLD_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CULINARY_ACADEMY_ADD_CULTURE_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CULINARY_ACADEMY_ADD_CULTURE_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>WEAVER_ADD_GOLD_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>WEAVER_ADD_GOLD_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUSHI_BAR_ADD_CULTURE_SUK</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUSHI_BAR_ADD_CULTURE_SUK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_STOCKYARD</BuildingType>
+			<ModifierId>STOCKYARD_ADD_FOOD_SUK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GEM_CUTTER</BuildingType>
+			<ModifierId>GEM_CUTTER_ADD_GOLD_SUK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAFE</BuildingType>
+			<ModifierId>CAFE_ADD_GOLD_SUK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CULINARY_ACADEMY</BuildingType>
+			<ModifierId>CULINARY_ACADEMY_ADD_CULTURE_SUK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEAVER</BuildingType>
+			<ModifierId>WEAVER_ADD_GOLD_SUK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUSHI_BAR</BuildingType>
+			<ModifierId>SUSHI_BAR_ADD_CULTURE_SUK</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
@@ -137,6 +195,18 @@
 		</Row>
 		<Row>
 			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -157,6 +227,18 @@
 		<Row>
 			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_SHARK_IN_PLOT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 </GameInfo>
