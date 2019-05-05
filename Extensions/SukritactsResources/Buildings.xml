@@ -2,67 +2,52 @@
 <GameInfo>
 	<Modifiers>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKCAMELFOOD</ModifierId>
+			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_SUKCAMEL</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKBISONFOOD</ModifierId>
+			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_SUKBISON</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GEM_CUTTER_ADDSUKGOLDGOLD</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_SUKGOLD</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
+
 	<ModifierArguments>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKCAMELFOOD</ModifierId>
+			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKCAMELFOOD</ModifierId>
+			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKBISONFOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
 		<Row>
-			<ModifierId>STOCKYARD_ADDSUKBISONFOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GEM_CUTTER_ADDSUKGOLDGOLD</ModifierId>
+			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_GOLD</Value>
 		</Row>
 		<Row>
-			<ModifierId>GEM_CUTTER_ADDSUKGOLDGOLD</ModifierId>
+			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
 	</ModifierArguments>
+
 	<BuildingModifiers>
 		<Row>
 			<BuildingType>BUILDING_STOCKYARD</BuildingType>
-			<ModifierId>STOCKYARD_ADDSUKCAMELFOOD</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STOCKYARD</BuildingType>
-			<ModifierId>STOCKYARD_ADDSUKBISONFOOD</ModifierId>
+			<ModifierId>STOCKYARD_ADDFOOD_SUK</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GEM_CUTTER</BuildingType>
 			<ModifierId>GEM_CUTTER_ADDSUKGOLDGOLD</ModifierId>
 		</Row>
 	</BuildingModifiers>
+
 	<Requirements>
 		<Row>
 			<RequirementId>REDIS_REQUIRES_SUKCAMEL_IN_PLOT</RequirementId>
@@ -77,49 +62,63 @@
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
+
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKCAMEL_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SUK_CAMEL</Value>
 		</Row>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKBISON_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_DLV_BISON</Value>
 		</Row>
 		<Row>
-			<RequirementId>REDIS_REQUIRES_SUKGOLD_IN_PLOT</RequirementId>
+			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SUK_CHEESE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_OBSIDIAN_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SUK_OBSIDIAN</Value>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_SHARK_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SUK_SHARK</Value>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_GOLD_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_GOLD</Value>
 		</Row>
 	</RequirementArguments>
+
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKCAMEL</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKBISON</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKGOLD</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
+
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKCAMEL</RequirementSetId>
-			<RequirementId>REDIS_REQUIRES_SUKCAMEL_IN_PLOT</RequirementId>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKBISON</RequirementSetId>
-			<RequirementId>REDIS_REQUIRES_SUKBISON_IN_PLOT</RequirementId>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_SUKGOLD</RequirementSetId>
-			<RequirementId>REDIS_REQUIRES_SUKGOLD_IN_PLOT</RequirementId>
+			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</RequirementSetId>
+			<RequirementId>REDIS_REQUIRES_SUK_GOLD_IN_PLOT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 </GameInfo>
