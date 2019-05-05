@@ -1511,7 +1511,7 @@
 		<Row>
 			<ModifierId>FORGE_IRON</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>FRONTIER_OUTPOST_SPIRIT</ModifierId>
@@ -1606,7 +1606,7 @@
 		<Row>
 			<ModifierId>NITER_REFINERY_NITER</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>PUB_DOMESTICFOOD</ModifierId>
@@ -1656,7 +1656,7 @@
 		<Row>
 			<ModifierId>STABLE_HORSES</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>STOCKYARD_ADDCATTLEFOOD</ModifierId>

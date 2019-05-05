@@ -244,7 +244,7 @@
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_FORGE_DESCRIPTION">
-		<Text>Provides 1 [ICON_RESOURCE_IRON] Iron per turn.</Text>
+		<Text>Provides an additional 2 [ICON_RESOURCE_IRON] Iron per turn.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_FRONTIER_OUTPOST_NAME">
 		<Text>Frontier Outpost</Text>
@@ -339,7 +339,7 @@
 		<Gender>Masculine:no_article</Gender>
 	</Row>
 	<Row Tag="LOC_BUILDING_NITER_REFINERY_DESCRIPTION">
-		<Text>Provides 1 [ICON_RESOURCE_NITER] Niter per turn.</Text>
+		<Text>Provides an additional 2 [ICON_RESOURCE_NITER] Niter per turn.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_PIER_NAME">
 		<Text>Pier</Text>
@@ -405,7 +405,7 @@
 		<Text>Creates 1 copy of [ICON_RESOURCE_SAUSAGE] Sausage, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_STABLE_DESCRIPTION2">
-		<Text>+25% combat experience for all cavalry units trained in this city. Provides 1 [ICON_RESOURCE_HORSES] Horse per turn.</Text>
+		<Text>+25% combat experience for all cavalry units trained in this city. Provides an additional 2 [ICON_RESOURCE_HORSES] Horse per turn.</Text>
 	</Row>
 	<Row Tag="LOC_BUILDING_STATIONER_NAME">
 		<Text>Stationer</Text>
