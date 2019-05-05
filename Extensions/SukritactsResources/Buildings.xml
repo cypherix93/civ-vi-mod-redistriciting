@@ -11,6 +11,11 @@
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
@@ -24,7 +29,6 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row>
 		<Row>
 			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
 			<Name>YieldType</Name>
@@ -44,7 +48,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GEM_CUTTER</BuildingType>
-			<ModifierId>GEM_CUTTER_ADDSUKGOLDGOLD</ModifierId>
+			<ModifierId>GEM_CUTTER_ADDGOLD_SUK</ModifierId>
 		</Row>
 	</BuildingModifiers>
 
@@ -59,6 +63,18 @@
 		</Row>
 		<Row>
 			<RequirementId>REDIS_REQUIRES_SUK_GOLD_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_OBSIDIAN_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REDIS_REQUIRES_SUK_SHARK_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
