@@ -20,7 +20,8 @@
 		<File>Redistricting/Data/Resources.xml</File>
 	</UpdateDatabase>
 	<UpdateDatabase id="Redistricting_Extensions_Resources">
-		<File>Extensions/SukritactsResources/Buildings.xml</File>
+		<File>Extensions/SukritactsResources/Buildings_Resource_Yields.xml</File>
+		<File>Extensions/CivitasResources/Buildings_Resource_Yields.xml</File>
 	</UpdateDatabase>
 	<UpdateText id="Redistricting_Text">
 		<File>Redistricting/Text/Buildings_Text.xml</File>
@@ -117,6 +118,7 @@
 	<File>Redistricting/Text/Districts_Text.xml</File>
 	<File>Redistricting/Text/Governments_Text.xml</File>
 	<File>Redistricting/Text/Resources_Text.xml</File>
-	<File>Extensions/SukritactsResources/Buildings.xml</File>
+	<File>Extensions/SukritactsResources/Buildings_Resource_Yields.xml</File>
+	<File>Extensions/CivitasResources/Buildings_Resource_Yields.xml</File>
   </Files>
 </Mod>
