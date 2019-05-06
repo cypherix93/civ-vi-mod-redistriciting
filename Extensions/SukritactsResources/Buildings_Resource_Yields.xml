@@ -65,32 +65,32 @@
 		<Row>
 			<ModifierId>STOCKYARD_ADD_FOOD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD_SUK</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>GEM_CUTTER_ADD_GOLD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD_SUK</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>CAFE_ADD_GOLD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD_SUK</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>CULINARY_ACADEMY_ADD_CULTURE_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE_SUK</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>WEAVER_ADD_GOLD_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD_SUK</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>SUSHI_BAR_ADD_CULTURE_SUK</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</SubjectRequirementSetId>
+			<SubjectRequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE_SUK</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 
@@ -186,58 +186,58 @@
 
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE_SUK</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_CAMEL_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_STOCKYARD_FOOD_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_GEM_CUTTER_GOLD_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_GOLD_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_CAFE_GOLD_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_CULINARY_ACADEMY_CULTURE_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_CHEESE_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_WEAVER_GOLD_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_BISON_IN_PLOT</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE</RequirementSetId>
+			<RequirementSetId>RESOURCE_IS_ANY_SUSHI_BAR_CULTURE_SUK</RequirementSetId>
 			<RequirementId>REDIS_REQUIRES_SUK_SHARK_IN_PLOT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
